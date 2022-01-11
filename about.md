@@ -26,7 +26,7 @@ titles:
 key: page-about
 ---
 
-![Lab Logo](https://github.com/SJTU-characterlab/SJTU-characterlab.github.io/raw/main/assets/android-chrome-512x512.png)
+![Lab Logo](https://github.com/whitneypanye/whitneypanye.github.io/raw/main/assets/android-chrome-512x512.png)
 
 **Character Lab** is a research group in the Department of Computer Science Shanghai Jiao Tong University, Shanghai, China. Professor is Ye Pan[[Google Scholar Page]](https://scholar.google.com/citations?user=_dhf9mQAAAAJ&hl=zh-CN&oi=ao).
 
