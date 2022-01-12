@@ -32,4 +32,4 @@ key: page-about
 
 Our research interests include computer human interaction, virtual environments, computer supported cooperative work, telepresence displays, avatars, computer graphics, social interaction.
 
-Contact Us: SJTUcharacterlab@outlook.com, whitneypanye@sjtu.edu.cn
+Contact Us: whitneypanye@sjtu.edu.cn
