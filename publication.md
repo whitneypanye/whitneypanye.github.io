@@ -185,7 +185,3 @@ key: page-about
             <td>    <font size="4">Preserving gaze direction in teleconferencing using a camera array and a spherical display</font><br>
     <font size="4"><b>Ye Pan</b>, Anthony Steed</font><br>
     <a href="https://whitneypanye.github.io/pdf/Preserving_gaze_direction_in_teleconferencing_using_a_camera_array_and_a_spherical_display.pdf" target="_blank"><font size="4">[pdf]</font></a>&emsp;<a href="https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Preserving+gaze+direction+in+teleconferencing+using+a+camera+array+and+a+spherical+display&btnG=#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3ApUFSBXWe48EJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Dzh-CN"><font size="4">[Link]</font></a> </td>
-    </table>
-
-</body>
-</div>
