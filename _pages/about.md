@@ -31,14 +31,134 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2024</div><img src='images/StylizedFacePoint_Facial_Landmark_Detection_for_Stylized_Characters.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='images/EDTalk_Efficient_Disentanglement_for_Emotional_Talking_Head_Synthesis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[StylizedFacePoint: Facial Landmark Detection for Stylized Characters](https://dl.acm.org/doi/abs/10.1145/3664647.3680984)
+[Edtalk: Efficient disentanglement for emotional talking head synthesis](https://link.springer.com/chapter/10.1007/978-3-031-72658-3_23)
 
-Shengran Cheng, Chuhang Ma, **Ye Pan**
+Shuai Tan, Bin Ji, Mengxiao Bi, **Ye Pan**
 
-- Facial landmark detection forms the foundation for numerous face-related tasks. Recently, this field has gained substantial attention and made significant advancements. Nonetheless, detecting facial landmarks for stylized characters still remains a challenge. Existing approaches, which are mostly trained on real-human face datasets, struggle to perform well due to the structural variations between real and stylized characters. Additionally, a comprehensive dataset for analyzing stylized characters' facial features is lacking. This study proposes a novel dataset, the Facial Landmark Dataset for Stylized Characters (FLSC), which contains 2674 images and 4086 faces selected from 16 cartoon video clips, together with 98 landmarks per image, labeled by professionals. Besides, we propose StylizedFacePoint: a deep-learning-based method for stylized facial landmark detection that outperforms the existing approaches. This method has also proven to work well for characters with styles outside the training domain. Moreover, we outline two primary types of applications for our dataset and method. For each, we provide a detailed illustrative example.
+- Achieving disentangled control over multiple facial motions and accommodating diverse input modalities greatly enhances the application and entertainment of the talking head generation. This necessitates a deep exploration of the decoupling space for facial features, ensuring that they a) operate independently without mutual interference and b) can be preserved to share with different modal inputs-both aspects often neglected in existing methods. To address this gap, this paper proposes a novel Efficient Disentanglement framework for Talking head generation (EDTalk). Our framework enables individual manipulation of mouth shape, head pose, and emotional expression, conditioned on video or audio inputs. Specifically, we employ three lightweight modules to decompose the facial dynamics into three distinct latent spaces representing mouth, pose, and expression, respectively. Each space is characterized by a set of learnable bases whose linear combinations define specific motions. To ensure independence and accelerate training, we enforce orthogonality among bases and devise an efficient training strategy to allocate motion responsibilities to each space without relying on external knowledge. The learned bases are then stored in corresponding banks, enabling shared visual priors with audio input. Furthermore, considering the properties of each space, we propose an Audio-to-Motion module for audio-driven talking head synthesis. Experiments are conducted to demonstrate the effectiveness of EDTalk. The code and pretrained models are released at: [https://tanshuai0219.github.io/EDTalk/](https://tanshuai0219.github.io/EDTalk/)
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='images/EDTalk_Efficient_Disentanglement_for_Emotional_Talking_Head_Synthesis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Edtalk: Efficient disentanglement for emotional talking head synthesis](https://link.springer.com/chapter/10.1007/978-3-031-72658-3_23)
+
+Shuai Tan, Bin Ji, Mengxiao Bi, **Ye Pan**
+
+- Achieving disentangled control over multiple facial motions and accommodating diverse input modalities greatly enhances the application and entertainment of the talking head generation. This necessitates a deep exploration of the decoupling space for facial features, ensuring that they a) operate independently without mutual interference and b) can be preserved to share with different modal inputs-both aspects often neglected in existing methods. To address this gap, this paper proposes a novel Efficient Disentanglement framework for Talking head generation (EDTalk). Our framework enables individual manipulation of mouth shape, head pose, and emotional expression, conditioned on video or audio inputs. Specifically, we employ three lightweight modules to decompose the facial dynamics into three distinct latent spaces representing mouth, pose, and expression, respectively. Each space is characterized by a set of learnable bases whose linear combinations define specific motions. To ensure independence and accelerate training, we enforce orthogonality among bases and devise an efficient training strategy to allocate motion responsibilities to each space without relying on external knowledge. The learned bases are then stored in corresponding banks, enabling shared visual priors with audio input. Furthermore, considering the properties of each space, we propose an Audio-to-Motion module for audio-driven talking head synthesis. Experiments are conducted to demonstrate the effectiveness of EDTalk. The code and pretrained models are released at: [https://tanshuai0219.github.io/EDTalk/](https://tanshuai0219.github.io/EDTalk/)
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/FlowVQTalker_High-Quality_Emotional_Talking_Face_Generation_through_Normalizing_Flow_and_Quantization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Flowvqtalker: High-quality emotional talking face generation through normalizing flow and quantization](https://openaccess.thecvf.com/content/CVPR2024/html/Tan_FlowVQTalker_High-Quality_Emotional_Talking_Face_Generation_through_Normalizing_Flow_and_CVPR_2024_paper.html)
+
+Shuai Tan, Bin Ji, **Ye Pan**
+
+- Generating emotional talking faces is a practical yet challenging endeavor. To create a lifelike avatar we draw upon two critical insights from a human perspective: 1) The connection between audio and the non-deterministic facial dynamics encompassing expressions blinks poses should exhibit synchronous and one-to-many mapping. 2) Vibrant expressions are often accompanied by emotion-aware high-definition (HD) textures and finely detailed teeth. However both aspects are frequently overlooked by existing methods. To this end this paper proposes using normalizing Flow and Vector-Quantization modeling to produce emotional talking faces that satisfy both insights concurrently (FlowVQTalker). Specifically we develop a flowbased coefficient generator that encodes the dynamics of facial emotion into a multi-emotion-class latent space represented as a mixture distribution. The generation process commences with random sampling from the modeled distribution guided by the accompanying audio enabling both lip-synchronization and the uncertain nonverbal facial cues generation. Furthermore our designed vector-quantization image generator treats the creation of expressive facial images as a code query task utilizing a learned codebook to provide rich high-quality textures that enhance the emotional perception of the results. Extensive experiments are conducted to showcase the effectiveness of our approach.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/Style2Talker_High-Resolution_Talking_Head_Generation_with_Emotion_Style_and_Art_Style.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Style2talker: High-resolution talking head generation with emotion style and art style](https://ojs.aaai.org/index.php/AAAI/article/view/28313)
+
+Shuai Tan, Bin Ji, **Ye Pan**
+
+- Although automatically animating audio-driven talking heads has recently received growing interest, previous efforts have mainly concentrated on achieving lip synchronization with the audio, neglecting two crucial elements for generating expressive videos: emotion style and art style. In this paper, we present an innovative audio-driven talking face generation method called Style2Talker. It involves two stylized stages, namely Style-E and Style-A, which integrate text-controlled emotion style and picture-controlled art style into the final output. In order to prepare the scarce emotional text descriptions corresponding to the videos, we propose a labor-free paradigm that employs large-scale pretrained models to automatically annotate emotional text labels for existing audio-visual datasets. Incorporating the synthetic emotion texts, the Style-E stage utilizes a large-scale CLIP model to extract emotion representations, which are combined with the audio, serving as the condition for an efficient latent diffusion model designed to produce emotional motion coefficients of a 3DMM model. Moving on to the Style-A stage, we develop a coefficient-driven motion generator and an art-specific style path embedded in the well-known StyleGAN. This allows us to synthesize high-resolution artistically stylized talking head videos using the generated emotional motion coefficients and an art style source picture. Moreover, to better preserve image details and avoid artifacts, we provide StyleGAN with the multi-scale content features extracted from the identity image and refine its intermediate feature maps by the designed content encoder and refinement network, respectively. Extensive experimental results demonstrate our method outperforms existing state-of-the-art methods in terms of audio-lip synchronization and performance of both emotion style and art style.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/Say_anything_with_any_style.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Say anything with any style](https://ojs.aaai.org/index.php/AAAI/article/view/28314)
+
+Shuai Tan, Bin Ji, Yu Ding, **Ye Pan**
+
+- Generating stylized talking head with diverse head motions is crucial for achieving natural-looking videos but still remains challenging. Previous works either adopt a regressive method to capture the speaking style, resulting in a coarse style that is averaged across all training data, or employ a universal network to synthesize videos with different styles which causes suboptimal performance. To address these, we propose a novel dynamic-weight method, namely Say Anything with Any Style (SAAS), which queries the discrete style representation via a generative model with a learned style codebook. Specifically, we develop a multi-task VQ-VAE that incorporates three closely related tasks to learn a style codebook as a prior for style extraction. This discrete prior, along with the generative model, enhances the precision and robustness when extracting the speaking styles of the given style clips. By utilizing the extracted style, a residual architecture comprising a canonical branch and style-specific branch is employed to predict the mouth shapes conditioned on any driving audio while transferring the speaking style from the source to any desired one. To adapt to different speaking styles, we steer clear of employing a universal network by exploring an elaborate HyperStyle to produce the style-specific weights offset for the style branch. Furthermore, we construct a pose generator and a pose codebook to store the quantized pose representation, allowing us to sample diverse head motions aligned with the audio and the extracted style. Experiments demonstrate that our approach surpasses state-of-the-art methods in terms of both lip-synchronization and stylized expression. Besides, we extend our SAAS to video-driven style editing field and achieve satisfactory performance as well.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2024</div><img src='images/Expressive_Talking_Avatars.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Expressive talking avatars](https://ieeexplore.ieee.org/abstract/document/10458318)
+
+**Ye Pan**, Shuai Tan, Shengran Cheng, Qunfen Lin, Zijiao Zeng, Kenny Mitchell
+
+- Stylized avatars are common virtual representations used in VR to support interaction and communication between remote collaborators. However, explicit expressions are notoriously difficult to create, mainly because most current methods rely on geometric markers and features modeled for human faces, not stylized avatar faces. To cope with the challenge of emotional and expressive generating talking avatars, we build the Emotional Talking Avatar Dataset which is a talking-face video corpus featuring 6 different stylized characters talking with 7 different emotions. Together with the dataset, we also release an emotional talking avatar generation method which enables the manipulation of emotion. We validated the effectiveness of our dataset and our method in generating audio based puppetry examples, including comparisons to state-of-the-art techniques and a user study. Finally, various applications of this method are discussed in the context of animating avatars in VR.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Displays 2024</div><img src='images/Interactive_geometry_editing_of_neural_radiance_fields.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Interactive geometry editing of neural radiance fields](https://www.sciencedirect.com/science/article/pii/S0141938224001744)
+
+Shaoxu Li, **Ye Pan**
+
+- Neural Radiance Fields (NeRF) have recently emerged as a promising approach for synthesizing highly realistic images from 3D scenes. This technology has shown impressive results in capturing intricate details and producing photorealistic renderings. However, one of the limitations of traditional NeRF approaches is the difficulty in editing and manipulating the geometry of the scene once it has been captured. This restriction hinders creative freedom and practical applicability. In this paper, we propose a method that enables interactive geometry editing for neural radiance fields manipulation. We use two proxy cages (inner cage and outer cage) to edit a scene. The inner cage defines the operation target, and the outer cage defines the adjustment space. Various operations apply to the two cages. After cage selection, operations on the inner cage lead to the desired transformation of the inner cage and adjustment of the outer cage. Users can edit the scene with translation, rotation, scaling, or combinations. The operations on the corners and edges of the cage are also supported. Our method does not need any explicit 3D geometry representations. The interactive geometry editing applies directly to the implicit neural radiance fields. Extensive experimental results demonstrate the effectiveness of our approach.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='images/HyperStyle3D_Text-Guided_3D_Portrait_Stylization_via_Hypernetworks.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Hyperstyle3d: Text-guided 3d portrait stylization via hypernetworks](https://ieeexplore.ieee.org/abstract/document/10542240)
+
+Zhuo Chen, Xudong Xu, Yichao Yan, **Ye Pan**, Wenhan Zhu, Wayne Wu, Bo Dai, Xiaokang Yang
+
+- Portrait stylization is a long-standing task enabling extensive applications. Although 2D-based methods have made great progress in recent years, real-world applications such as metaverse and games often demand 3D content. On the other hand, the requirement of 3D data, which is costly to acquire, significantly impedes the development of 3D portrait stylization methods. In this paper, inspired by the success of 3D-aware GANs that bridge 2D and 3D domains with 3D fields as the intermediate representation for rendering 2D images, we propose a novel method, dubbed HyperStyle3D, based on 3D-aware GANs for 3D portrait stylization. At the core of our method is a hyper-network learned to manipulate the parameters of the generator in a single forward pass. It not only offers a strong capacity to handle multiple styles with a single model, but also enables flexible fine-grained stylization that affects only texture, shape, or local part of the portrait. While the use of 3D-aware GANs bypasses the requirement of 3D data, we further alleviate the necessity of style images with the CLIP model being the style guidance. We conduct an extensive set of experiments across the style, attribute, and shape, and meanwhile, measure the 3D consistency. These experiments demonstrate the superior capability of our HyperStyle3D model in rendering 3D-consistent images in diverse styles, deforming the face shape, and editing various attributes. Our project page: [https://windlikestone.github.io/HyperStyle3D-website/](https://windlikestone.github.io/HyperStyle3D-website/).
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VR 2024</div><img src='images/EmoFace_Audio-driven_Emotional_3D_Face_Animation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[EmoFace: Audio-driven emotional 3D face animation](https://ieeexplore.ieee.org/abstract/document/10494180)
+
+Chang Liu, Qunfen Lin, Zijiao Zeng, **Ye Pan**
+
+- Audio-driven emotional 3D face animation aims to generate emotionally expressive talking heads with synchronized lip movements. However, previous research has often overlooked the influence of diverse emotions on facial expressions or proved unsuitable for driving MetaHuman models. In response to this deficiency, we introduce EmoFace, a novel audio-driven methodology for creating facial animations with vivid emotional dynamics. Our approach can generate facial expressions with multiple emotions, and has the ability to generate random yet natural blinks and eye movements, while maintaining accurate lip synchronization. We propose independent speech encoders and emotion encoders to learn the relationship between audio, emotion and corresponding facial controller rigs, and finally map into the sequence of controller values. Additionally, we introduce two post-processing techniques dedicated to enhancing the authenticity of the animation, particularly in blinks and eye movements. Furthermore, recognizing the scarcity of emotional audio-visual data suitable for MetaHuman model manipulation, we contribute an emotional audio-visual dataset and derive control parameters for each frames. Our proposed methodology can be applied in producing dialogues animations of non-playable characters (NPCs) in video games, and driving avatars in virtual reality environments. Our further quantitative and qualitative experiments, as well as an user study comparing with existing researches show that our approach demonstrates superior results in driving 3D facial models. The code and sample data are available at [https://github.com/SJTU-Lucy/EmoFace](https://github.com/SJTU-Lucy/EmoFace)
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='images/Instant_Photorealistic_Neural_Radiance_Fields_Stylization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Instant photorealistic neural radiance fields stylization](https://ieeexplore.ieee.org/abstract/document/10446082)
+
+Shaoxu Li, **Ye Pan**
+
+- We present Instant Photorealistic Neural Radiance Fields Stylization, a novel approach for multi-view image stylization for the 3D scene. Our approach models a neural radiance field based on neural graphics primitives, which use a hash table-based position encoder for position embedding. We split the position encoder into two parts, the content and style sub-branches, and train the network for normal novel view image synthesis with the content and style targets. In the inference stage, we execute AdaIN to the output features of the position encoder, with content and style voxel grid features as reference. The stylization of novel view images could be obtained with the adjusted features. Given a set of images of 3D scenes and a style target(a style image or another set of 3D scenes), our method can generate stylized novel views with a consistent appearance at various view angles in less than 10 minutes on modern GPU hardware.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TOMM 2024</div><img src='images/Head3D_complete_3D_head_generation_via_tri-plane_feature_distillation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Head3d: Complete 3d head generation via tri-plane feature distillation](https://dl.acm.org/doi/full/10.1145/3635717)
+
+Yuhao Cheng, Yichao Yan, Wenhan Zhu, **Ye Pan**, Bowen Pan, Xiaokang Yang
+
+- Head generation with diverse identities is an important task in computer vision and computer graphics, widely used in multimedia applications. However, current full-head generation methods require a large number of three-dimensional (3D) scans or multi-view images to train the model, resulting in expensive data acquisition costs. To address this issue, we propose Head3D, a method to generate full 3D heads with limited multi-view images. Specifically, our approach first extracts facial priors represented by tri-planes learned in EG3D, a 3D-aware generative model, and then proposes feature distillation to deliver the 3D frontal faces within complete heads without compromising head integrity. To mitigate the domain gap between the face and head models, we present a dual-discriminator to guide the frontal and back head generation. Our model achieves cost-efficient and diverse complete head generation with photo-realistic renderings and high-quality geometry representations. Extensive experiments demonstrate the effectiveness of our proposed Head3D, both qualitatively and quantitatively.
 </div>
 </div>
 
@@ -111,18 +231,6 @@ Bin Ji, **Ye Pan**, Yichao Yan, Ruizhao Chen, Xiaokang Yang
 Jingying Wang, Yilin Qiu, Keyu Chen, Yu Ding, **Ye Pan**
 
 - Avatars are one of the most important elements in virtual environments. Real-time facial retargeting technology is of vital importance in AR/VR interactions, the filmmaking, and the entertainment industry, and blendshapes for avatars are one of its important materials. Previous works either focused on the characters with the same topology, which cannot be generalized to universal avatars, or used optimization methods that have high demand on the dataset. In this paper, we adopt the essence of deep learning and feature transfer to realize deformation transfer, thereby generating blendshapes for target avatars based on the given sources. We proposed a Variational Autoencoder (VAE) to extract the latent space of the avatars and then use a Multilayer Perceptron (MLP) model to realize the translation between the latent spaces of the source avatar and target avatars. By decoding the latent code of different blendshapes, we can obtain the blendshapes for the target avatars with the same semantics as that of the source. We qualitatively and quantitatively compared our method with both classical and learning-based methods. The results revealed that the blendshapes generated by our method achieves higher similarity to the groundtruth blendshapes than the state-of-art methods. We also demonstrated that our method can be applied to expression transfer for stylized characters with different topologies.
-</div>
-</div>
-
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2023</div><img src='images/Instant_Photorealistic_Neural_Radiance_Fields_Stylization.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Instant Photorealistic Neural Radiance Fields Stylization](https://arxiv.org/abs/2303.16884)
-
-Shaoxu Li, **Ye Pan**
-
-- We present Instant Neural Radiance Fields Stylization, a novel approach for multi-view image stylization for the 3D scene. Our approach models a neural radiance field based on neural graphics primitives, which use a hash table-based position encoder for position embedding. We split the position encoder into two parts, the content and style sub-branches, and train the network for normal novel view image synthesis with the content and style targets. In the inference stage, we execute AdaIN to the output features of the position encoder, with content and style voxel grid features as reference. With the adjusted features, the stylization of novel view images could be obtained. Our method extends the style target from style images to image sets of scenes and does not require additional network training for stylization. Given a set of images of 3D scenes and a style target(a style image or another set of 3D scenes), our method can generate stylized novel views with a consistent appearance at various view angles in less than 10 minutes on modern GPU hardware. Extensive experimental results demonstrate the validity and superiority of our method.
 </div>
 </div>
 
