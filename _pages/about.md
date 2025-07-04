@@ -33,7 +33,7 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DTV-Conference 2012</div><img src='images/Preserving_gaze_direction_in_teleconferencing_using_a_camera_array_and_a_spherical_display.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Preserving gaze direction in teleconferencing using a camera array and a spherical display] (https://ieeexplore.ieee.org/abstract/document/6365433)
+[Preserving gaze direction in teleconferencing using a camera array and a spherical display](https://ieeexplore.ieee.org/abstract/document/6365433)
 
 **Ye Pan**, Anthony Steed
 
@@ -45,7 +45,7 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGCHI 2014</div><img src='images/Comparing_flat_and_spherical_displays_in_a_trust_scenario_in_avatar_mediated_interaction.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Comparing flat and spherical displays in a trust scenario in avatar-mediated interaction] (https://dl.acm.org/doi/abs/10.1145/2556288.2557276)
+[Comparing flat and spherical displays in a trust scenario in avatar-mediated interaction](https://dl.acm.org/doi/abs/10.1145/2556288.2557276)
 
 **Ye Pan**, William Steptoe, Anthony Steed
 
@@ -57,7 +57,7 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGCHI 2014</div><img src='images/A_gaze_preserving_situated_multiview_telepresence_system.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A gaze-preserving situated multiview telepresence system] (https://dl.acm.org/doi/abs/10.1145/2556288.2557320)
+[A gaze-preserving situated multiview telepresence system](https://dl.acm.org/doi/abs/10.1145/2556288.2557320)
 
 **Ye Pan**, Anthony Steed
 
