@@ -31,6 +31,162 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 # 📝 Publications 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">US Patent 2021</div><img src='images/Gaze_based_rendering_for_audience_engagement.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Gaze based rendering for audience engagement](https://patents.google.com/patent/US11189047B2/en)
+
+**Ye Pan**, Kenny Mitchell
+
+- The present disclosure is related to an audience engagement system and method to display images on a display. The method includes detecting a gaze direction of a designated viewer, rendering a gaze object within an image on a gaze axis corresponding to the gaze direction, rendering an audience object within the image on a normal axis corresponding to a display axis, composting the audience object and the gaze object together in a composited image, and displaying the composited image on the display.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CG 2021</div><img src='images/Foreward_to_the_special_section_on_the_Reality-Virtuality_Continuum_and_its_Applications_(RVCA).png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Foreward to the Special Section on the Reality-Virtuality Continuum and its Applications (RVCA)](https://napier-repository.worktribe.com/output/2776183)
+
+Mashhuda Glencross, Kenny Mitchell, Billinghurst Mark, **Ye Pan**
+
+- Purpose: To survey soccer practitioners’ recovery strategy:(1) use,(2) perceived effectiveness, and (3) factors influencing their implementation in professional soccer. Methods: A cross-sectional convenience sample of professional soccer club/confe… Read More about The Use of Recovery Strategies in Professional Soccer: A Worldwide Survey.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers in virtual reality 2020</div><img src='images/The_rocketbox_library_and_the_utility_of_freely_available_rigged_avatars.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[The rocketbox library and the utility of freely available rigged avatars](https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2020.561558/full)
+
+Mar Gonzalez-Franco, Eyal Ofek, **Ye Pan**, Angus Antley, Anthony Steed, Bernhard Spanlang, Antonella Maselli, Domna Banakou, Nuria Pelechano, Sergio Orts-Escolano, Veronica Orvalho, Laura Trutoiu, Markus Wojcik, Maria V Sanchez-Vives, Jeremy Bailenson, Mel Slater, Jaron Lanier
+
+- As part of the open sourcing of the Microsoft Rocketbox avatar library for research and academic purposes, here we discuss the importance of rigged avatars for the Virtual and Augmented Reality (VR, AR) research community. Avatars, virtual representations of humans, are widely used in VR applications. Furthermore many research areas ranging from crowd simulation to neuroscience, psychology, or sociology have used avatars to investigate new theories or to demonstrate how they influence human performance and interactions. We divide this paper in two main parts: the first one gives an overview of the different methods available to create and animate avatars. We cover the current main alternatives for face and body animation as well introduce upcoming capture methods. The second part presents the scientific evidence of the utility of using rigged avatars for embodiment but also for applications such as crowd simulation and entertainment. All in all this paper attempts to convey why rigged avatars will be key to the future of VR and its wide adoption.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VR 2020</div><img src='images/PoseMMR_A_Collaborative_Mixed_Reality_Authoring_Tool_for_Character_Animation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[PoseMMR: A Collaborative Mixed Reality Authoring Tool for Character Animation](https://ieeexplore.ieee.org/abstract/document/9090677)
+
+**Ye Pan**, Kenny Mitchell
+
+- Augmented reality devices enable new approaches for character animation, e.g., given that character posing is three dimensional in nature it follows that interfaces with higher degrees-of-freedom (DoF) should outperform 2D interfaces. We present PoseMMR, allowing Multiple users to animate characters in a Mixed Reality environment, like how a stop-motion animator would manipulate a physical puppet, frame-by-frame, to create the scene. We explore the potential advantages of the PoseMMR can facilitate immersive posing, animation editing, version control and collaboration, and provide a set of guidelines to foster the development of immersive technologies as tools for collaborative authoring of character animation.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2020</div><img src='images/Pose-Guided_Person_Image_Synthesis_in_the_Non-Iconic_Views.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Pose-guided person image synthesis in the non-iconic views](https://ieeexplore.ieee.org/document/9200521)
+
+Chengming Xu, Yanwei Fu, Chao Wen, **Ye Pan**, Yu-Gang Jiang, Xiangyang Xue
+
+- Generating realistic images with the guidance of reference images and human poses is challenging. Despite the success of previous works on synthesizing person images in the iconic views, no efforts are made towards the task of pose-guided image synthesis in the non-iconic views. Particularly, we find that previous models cannot handle such a complex task, where the person images are captured in the non-iconic views by commercially-available digital cameras. To this end, we propose a new framework - Multi-branch Refinement Network (MR-Net), which utilizes several visual cues, including target person poses, foreground person body and scene images parsed. Furthermore, a novel Region of Interest (RoI) perceptual loss is proposed to optimize the MR-Net. Extensive experiments on two non-iconic datasets, Penn Action and BBC-Pose, as well as an iconic dataset - Market-1501, show the efficacy of the proposed model that can tackle the problem of pose-guided person image generation from the non-iconic views. The data, models, and codes are downloadable from [https://github.com/loadder/MR-Net](https://github.com/loadder/MR-Net).
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VRW 2020</div><img src='images/Group-Based_Expert_Walkthroughs_How_Immersive_Technologies_Can_Facilitate_the_Collaborative_Authoring_of_Character_Animation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Group-based expert walkthroughs: How immersive technologies can facilitate the collaborative authoring of character animation](https://ieeexplore.ieee.org/document/9090619)
+
+**Ye Pan**, Kenny Mitchell
+
+- Immersive technologies have increasingly attracted the attention of the computer animation community in search of more intuitive and effective alternatives to the current sophisticated 2D interfaces. The higher affordances offered by 3D interaction, as well as the enhanced spatial understanding have the potential to improve the animators’ task, which is tremendously skill intensive and time-consuming. We explore the capabilities provided by our PoseMMR, multiple users posing and animating characters in a mixed reality (MR) environment, animation via group-based expert walkthroughs. We demonstrated our system can facilitate immersive posing, animation editing, version control and collaboration. We provide a set of guidelines and discussed the benefits and potential of immersive technologies for our future animation toolsets.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJHCS 2020</div><img src='images/Improving_VIP_viewer_gaze_estimation_and_engagement_using_adaptive_dynamic_anamorphosis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Improving VIP viewer gaze estimation and engagement using adaptive dynamic anamorphosis](https://www.sciencedirect.com/science/article/abs/pii/S1071581920301658)
+
+**Ye Pan**, Kenny Mitchell
+
+- Anamorphosis for 2D displays can provide viewer centric perspective viewing, enabling 3D appearance, eye contact and engagement, by adapting dynamically in real time to a single moving viewer’s viewpoint, but at the cost of distorted viewing for other viewers. We present a method for constructing non-linear projections as a combination of anamorphic rendering of selective objects whilst reverting to normal perspective rendering of the rest of the scene. Our study defines a scene consisting of five characters, with one of these characters selectively rendered in anamorphic perspective. We conducted an evaluation experiment and demonstrate that the tracked viewer centric imagery for the selected character results in an improved gaze and engagement estimation. Critically, this is performed without sacrificing the other viewers’ viewing experience. In addition, we present findings on the perception of gaze direction for regularly viewed characters located off-center to the origin, where perceived gaze shifts from being aligned to misalignment increasingly as the distance between viewer and character increases. Finally, we discuss different viewpoints and the spatial relationship between objects.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers in Robotics and AI 2019</div><img src='images/How_foot_tracking_matters_The_impact_of_an_animated_self-avatar_on_interaction_embodiment_and_presence_in_shared_virtual_environments.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[How foot tracking matters: The impact of an animated self-avatar on interaction, embodiment and presence in shared virtual environments](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2019.00104/full)
+
+**Ye Pan**, Anthony Steed
+
+- The use of a self-avatar representation in head-mounted displays has been shown to have important effects on user behavior. However, relatively few studies focus on feet and legs. We implemented a shared virtual reality for consumer virtual reality systems where each user could be represented by a gender-matched self-avatar controlled by multiple trackers. The self-avatar allowed users to see their feet, legs and part of their torso when they looked down. We implemented an experiment where participants worked together to solve jigsaw puzzles. Participants experienced either no-avatar, a self-avatar with floating feet, or a self-avatar with tracked feet, in a between-subjects manipulation. First, we found that participants could solve the puzzle more quickly with self-avatars than without self-avatars; but there was no significant difference between the latter two conditions, solely on task completion time. Second, we found participants with tracked feet placed their feet statistically significantly closer to obstacles than participants with floating feet, whereas participants who did not have a self-avatar usually ignored obstacles. Our post-experience questionnaire results confirmed that the use of a self-avatar has important effects on presence and interaction. Together the results show that although the impact of animated legs might be subtle, it does change how users behave around obstacles. This could have important implications for the design of virtual spaces for applications such as training or behavioral analysis.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VRST 2019</div><img src='images/Avatar_type_affects_performance_of_cognitive_tasks_in_virtual_reality.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Avatar type affects performance of cognitive tasks in virtual reality](https://dl.acm.org/doi/abs/10.1145/3359996.3364270)
+
+**Ye Pan**, Anthony Steed
+
+- Current consumer virtual reality applications typically represent the user by an avatar comprising a simple head/torso and decoupled hands. In the prior work of Steed et al. it was shown that the presence or absence of an avatar could have a significant impact on the cognitive load of the user. We extend that work in two ways. First they only used a full-body avatar with articulated arms, so we add a condition with hands-only representation similar to the majority of current consumer applications. Second we provide a real-world benchmark so as to start to get at the impact of using any immersive system. We validate the prior results: real and full body avatar performance on a memory task is significantly better than no avatar. However the hands only condition is not significantly different than either these two extremes. We discuss why this might be, in particular we discuss the potential for a individual variation in response to the embodiment level.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISMAR 2019</div><img src='images/Accurate_and_fast_classification_of_foot_gestures_for_virtual_locomotion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Accurate and fast classification of foot gestures for virtual locomotion](https://ieeexplore.ieee.org/abstract/document/8943618)
+
+Xinyu Shi, Junjun Pan, Zeyong Hu, Juncong Lin, Shihui Guo, Minghong Liao, **Ye Pan**, Ligang Liu
+
+- This work explores the use of foot gestures for locomotion in virtual environments. Foot gestures are represented as the distribution of plantar pressure and detected by three sparsely-located sensors on each insole. The Long Short-Term Memory model is chosen as the classifier to recognize the performer's foot gesture based on the captured signals of pressure information. The trained classifier directly takes the noisy and sparse input of sensor data, and handles seven categories of foot gestures (stand, walk forward/backward, run, jump, slide left and right) without manual definition of signal features for classifying these gestures. This classifier is capable of recognizing the foot gestures, even with the existence of large sensor-specific, inter-person and intra-person variations. Results show that an accuracy of ~80% can be achieved across different users with different shoe sizes and ~85% for users with the same shoe size. A novel method, Dual-Check Till Consensus, is proposed to reduce the latency of gesture recognition from 2 seconds to 0.5 seconds and increase the accuracy to over 97%. This method offers a promising solution to achieve lower latency and higher accuracy at a minor cost of computation workload. The characteristics of high accuracy and fast classification of our method could lead to wider applications of using foot patterns for human-computer interaction.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mechanism and Machine Theory 2019</div><img src='images/Enabling_grasp_action_generalized_quality_evaluation_of_grasp_stability_via_contact_stiffness_from_contact_mechanics_insight.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Enabling grasp action: Generalized quality evaluation of grasp stability via contact stiffness from contact mechanics insight](https://www.sciencedirect.com/science/article/abs/pii/S0094114X18318639)
+
+Huixu Dong, Chen Qiu, Dilip K Prasad, **Ye Pan**, Jiansheng Dai, I-Ming Chen
+
+- Performing a grasp is a pivotal capability for a robotic gripper. We propose a new evaluation approach of the quality of grasping stability via constructing a model of grasping stiffness based on the theory of contact mechanics. First, the mathematical models are built to explore “soft contact” and the general grasp stiffness between a finger and an object. Next, the grasping stiffness matrix is constructed to reflect the normal, tangential and torsion stiffness coefficients. Finally, we design two grasping cases to verify the proposed measurement criterion of the quality of grasping stability by comparing different grasping configurations. Specifically, a standard grasping index is used and compared with the minimum eigenvalue index of the constructed grasping stiffness we built. The comparison result reveals a similar tendency between them for measuring the quality of grasping stability and thus, validates the proposed approach.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIDS 2019</div><img src='images/JUNGLE_an_interactive_visual_platform_for_collaborative_creation_and_consumption_of_nonlinear_transmedia_stories.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[JUNGLE: an interactive visual platform for collaborative creation and consumption of nonlinear transmedia stories](https://link.springer.com/chapter/10.1007/978-3-030-33894-7_26)
+
+Mubasir Kapadia, Carlos Manuel Muniz, Samuel S Sohn, **Ye Pan**, Sasha Schriber, Kenny Mitchell, Markus Gross
+
+- JUNGLE is an interactive, visual platform for the collaborative manipulation and consumption of nonlinear transmedia stories. Intuitive visual interfaces encourage JUNGLE users to explore vast libraries of story worlds, expand existing stories, or conceive of entirely original story worlds. JUNGLE stories utilize multiple media forms including videos, images, and text, and accommodate branching narrative outcomes. We extensively evaluate Jungle using a focused small-scale study and free-form large-scale study with careful protection of study participant privacy. In the small-scale study, users found JUNGLE ’s features to be versatile, engaging, and intuitive for discovering new content. In the large-scale study, 354 subjects tested JUNGLE in a realistic 45-day scenario. We find that users collaborated on story worlds incorporating various forms of media in multiple (on average two) possible story paths. In particular, we find through initial observations that JUNGLE can evoke creativity: traditionally passive consumers gradually transition into active content creators. Supplementary videos showcasing the JUNGLE system and hypothetical example stories authored using JUNGLE independently hosted [here](https://www.youtube.com/watch?v=D_aHkhQJgQQ) and [here](https://www.youtube.com/watch?v=CL4g8YDM0tE).
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers in Robotics and AI 2018</div><img src='images/We_Wait_the_impact_of_character_responsiveness_and_self_embodiment_on_presence_and_interest_in_an_immersive_news_experience.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[“We wait”—the impact of character responsiveness and self embodiment on presence and interest in an immersive news experience](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00112/full)
+
+Anthony Steed, **Ye Pan**, Zillah Watson, Mel Slater
+
+- A virtual reality scenario called “We Wait” gives people an immersive experience of the plight of refugees waiting to be picked up by a boat on a shore in Turkey to be illegally taken to Europe, crossing a dangerous stretch of sea. This was based on BBC news reporting of the refugee situation, but deliberately depicted as an animation with cartoon-like characters representing the refugees. Of interest was the level of presence that might be experienced by participants and the extent to which the scenario might prompt participants to follow-up further information about the refugee crisis. By presence we refer to both Place Illusion, the illusion of being in the rendered space, and Plausibility, the illusion that the unfolding events were really happening. The follow-up was assessed by whether and when participants accessed a web page that contained further information about the refugee crisis after the experiment. Two factors were considered in a balanced between-groups design with 32 participants. The Responsiveness factor was either “None” or “Look at.” In the first the virtual characters in the scenario never responded to actions of the participant, and in the second they would occasionally look at the participant after the participant looked at them. The second factor was Embodiment, which was either “No Body” or “Body.” In the No Body condition participants had no virtual body, and in the Body condition they would see a virtual body spatially congruent with their own if they looked down toward themselves. The virtual body was animated by the head tracking move the upper body. The results showed that the major factor positively contributing to presence was Responsiveness (“Look at”), and that Embodiment (“Body”) may have contributed but to a lesser extent. There were important differences between men and woman in the degree of follow-up, with men more likely to do so than women. The experiment shows that adding in some simple responses in an immersive journalism scenario, where the characters acknowledge the presence of the participant through gaze, can enhance the degree of presence felt by the participants.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CAVW 2018</div><img src='images/Empowerment_and_embodiment_for_collaborative_mixed_reality_systems.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
