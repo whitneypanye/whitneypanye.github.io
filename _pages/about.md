@@ -31,6 +31,222 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 # 📝 Publications 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2024</div><img src='images/StylizedFacePoint_Facial_Landmark_Detection_for_Stylized_Characters.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[StylizedFacePoint: Facial Landmark Detection for Stylized Characters](https://dl.acm.org/doi/abs/10.1145/3664647.3680984)
+
+Shengran Cheng, Chuhang Ma, **Ye Pan**
+
+- Facial landmark detection forms the foundation for numerous face-related tasks. Recently, this field has gained substantial attention and made significant advancements. Nonetheless, detecting facial landmarks for stylized characters still remains a challenge. Existing approaches, which are mostly trained on real-human face datasets, struggle to perform well due to the structural variations between real and stylized characters. Additionally, a comprehensive dataset for analyzing stylized characters' facial features is lacking. This study proposes a novel dataset, the Facial Landmark Dataset for Stylized Characters (FLSC), which contains 2674 images and 4086 faces selected from 16 cartoon video clips, together with 98 landmarks per image, labeled by professionals. Besides, we propose StylizedFacePoint: a deep-learning-based method for stylized facial landmark detection that outperforms the existing approaches. This method has also proven to work well for characters with styles outside the training domain. Moreover, we outline two primary types of applications for our dataset and method. For each, we provide a detailed illustrative example.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2024</div><img src='images/StylizedFacePoint_Facial_Landmark_Detection_for_Stylized_Characters.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[StylizedFacePoint: Facial Landmark Detection for Stylized Characters](https://dl.acm.org/doi/abs/10.1145/3664647.3680984)
+
+Shengran Cheng, Chuhang Ma, **Ye Pan**
+
+- Facial landmark detection forms the foundation for numerous face-related tasks. Recently, this field has gained substantial attention and made significant advancements. Nonetheless, detecting facial landmarks for stylized characters still remains a challenge. Existing approaches, which are mostly trained on real-human face datasets, struggle to perform well due to the structural variations between real and stylized characters. Additionally, a comprehensive dataset for analyzing stylized characters' facial features is lacking. This study proposes a novel dataset, the Facial Landmark Dataset for Stylized Characters (FLSC), which contains 2674 images and 4086 faces selected from 16 cartoon video clips, together with 98 landmarks per image, labeled by professionals. Besides, we propose StylizedFacePoint: a deep-learning-based method for stylized facial landmark detection that outperforms the existing approaches. This method has also proven to work well for characters with styles outside the training domain. Moreover, we outline two primary types of applications for our dataset and method. For each, we provide a detailed illustrative example.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/EMMN_Emotional_Motion_Memory_Network_for_Audio-driven_Emotional_Talking_Face.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Emmn: Emotional motion memory network for audio-driven emotional talking face generation](https://openaccess.thecvf.com/content/ICCV2023/html/Tan_EMMN_Emotional_Motion_Memory_Network_for_Audio-driven_Emotional_Talking_Face_ICCV_2023_paper.html)
+
+Shuai Tan, Bin Ji, **Ye Pan**
+
+- Synthesizing expression is essential to create realistic talking faces. Previous works consider expressions and mouth shapes as a whole and predict them solely from audio inputs. However, the limited information contained in audio, such as phonemes and coarse emotion embedding, may not be suitable as the source of elaborate expressions. Besides, since expressions are tightly coupled to lip motions, generating expression from other sources is tricky and always neglects expression performed on mouth region, leading to inconsistency between them. To tackle the issues, this paper proposes Emotional Motion Memory Net (EMMN) that synthesizes expression overall on the talking face via emotion embedding and lip motion instead of the sole audio. Specifically, we extract emotion embedding from audio and design Motion Reconstruction module to decompose ground truth videos into mouth features and expression features before training, where the latter encode all facial factors about expression. During training, the emotion embedding and mouth features are used as keys, and the corresponding expression features are used as values to create key-value pairs stored in the proposed Motion Memory Net. Hence, once the audio-relevant mouth features and emotion embedding are individually predicted from audio at inference time, we treat them as a query to retrieve the best-matching expression features, performing expression overall on the face and thus avoiding inconsistent results. Extensive experiments demonstrate that our method can generate high-quality talking face videos with accurate lip movements and vivid expressions on unseen subjects.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2023</div><img src='images/Emotional_Voice_Puppetry.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Emotional voice puppetry](https://ieeexplore.ieee.org/abstract/document/10049691)
+
+**Ye Pan**, Ruisi Zhang, Shengran Cheng, Shuai Tan, Yu Ding, Kenny Mitchell, Xubo Yang
+
+- The paper presents emotional voice puppetry, an audio-based facial animation approach to portray characters with vivid emotional changes. The lips motion and the surrounding facial areas are controlled by the contents of the audio, and the facial dynamics are established by category of the emotion and the intensity. Our approach is exclusive because it takes account of perceptual validity and geometry instead of pure geometric processes. Another highlight of our approach is the generalizability to multiple characters. The findings showed that training new secondary characters when the rig parameters are categorized as eye, eyebrows, nose, mouth, and signature wrinkles is significant in achieving better generalization results compared to joint training. User studies demonstrate the effectiveness of our approach both qualitatively and quantitatively. Our approach can be applicable in AR/VR and 3DUI, namely, virtual reality avatars/self-avatars, teleconferencing and in-game dialogue.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2023</div><img src='images/Real-time_facial_animation_for_3d_stylized_character_with_emotion_dynamics.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Real-time facial animation for 3d stylized character with emotion dynamics](https://dl.acm.org/doi/abs/10.1145/3581783.3613803)
+
+**Ye Pan**, Ruisi Zhang, Jingying Wang, Yu Ding, Kenny Mitchell
+
+- Our aim is to improve animation production techniques' efficiency and effectiveness. We present two real-time solutions which drive character expressions in a geometrically consistent and perceptually valid way. Our first solution combines keyframe animation techniques with machine learning models. We propose a 3D emotion transfer network makes use of a 2D human image to generate a stylized 3D rig parameter. Our second solution combines blendshape-based motion capture animation techniques with machine learning models. We propose a blendshape adaption network which generates the character rig parameter motions with geometric consistency and temporally stability. We demonstrate the effectiveness of our system by comparing it to a commercial product Faceware. Results reveal that ratings of the recognition, intensity, and attractiveness of expressions depicted for animated characters via our systems are statistically higher than Faceware. Our results may be implemented into the animation pipeline, supporting animators to create expressions more rapidly and precisely.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2023</div><img src='images/StyleVR_Stylizing_Character_Animations_With_Normalizing_Flows.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Stylevr: Stylizing character animations with normalizing flows](https://ieeexplore.ieee.org/abstract/document/10076832)
+
+Bin Ji, **Ye Pan**, Yichao Yan, Ruizhao Chen, Xiaokang Yang
+
+- The significance of artistry in creating animated virtual characters is widely acknowledged, and motion style is a crucial element in this process. There has been a long-standing interest in stylizing character animations with style transfer methods. However, this kind of models can only deal with short-term motions and yield deterministic outputs. To address this issue, we propose a generative model based on normalizing flows for stylizing long and aperiodic animations in the VR scene. Our approach breaks down this task into two sub-problems: motion style transfer and stylized motion generation, both formulated as the instances of conditional normalizing flows with multi-class latent space. Specifically, we encode high-frequency style features into the latent space for varied results and control the generation process with style-content labels for disentangled edits of style and content. We have developed a prototype, StyleVR, in Unity, which allows casual users to apply our method in VR. Through qualitative and quantitative comparisons, we demonstrate that our system outperforms other methods in terms of style transfer as well as stochastic stylized motion generation.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VR 2023</div><img src='images/Fully_Automatic_Blendshape_Generation_for_Stylized_Characters.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Fully Automatic Blendshape Generation for Stylized Characters](https://ieeexplore.ieee.org/abstract/document/10108478)
+
+Jingying Wang, Yilin Qiu, Keyu Chen, Yu Ding, **Ye Pan**
+
+- Avatars are one of the most important elements in virtual environments. Real-time facial retargeting technology is of vital importance in AR/VR interactions, the filmmaking, and the entertainment industry, and blendshapes for avatars are one of its important materials. Previous works either focused on the characters with the same topology, which cannot be generalized to universal avatars, or used optimization methods that have high demand on the dataset. In this paper, we adopt the essence of deep learning and feature transfer to realize deformation transfer, thereby generating blendshapes for target avatars based on the given sources. We proposed a Variational Autoencoder (VAE) to extract the latent space of the avatars and then use a Multilayer Perceptron (MLP) model to realize the translation between the latent spaces of the source avatar and target avatars. By decoding the latent code of different blendshapes, we can obtain the blendshapes for the target avatars with the same semantics as that of the source. We qualitatively and quantitatively compared our method with both classical and learning-based methods. The results revealed that the blendshapes generated by our method achieves higher similarity to the groundtruth blendshapes than the state-of-art methods. We also demonstrated that our method can be applied to expression transfer for stylized characters with different topologies.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2023</div><img src='images/Instant_Photorealistic_Neural_Radiance_Fields_Stylization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Instant Photorealistic Neural Radiance Fields Stylization](https://arxiv.org/abs/2303.16884)
+
+Shaoxu Li, **Ye Pan**
+
+- We present Instant Neural Radiance Fields Stylization, a novel approach for multi-view image stylization for the 3D scene. Our approach models a neural radiance field based on neural graphics primitives, which use a hash table-based position encoder for position embedding. We split the position encoder into two parts, the content and style sub-branches, and train the network for normal novel view image synthesis with the content and style targets. In the inference stage, we execute AdaIN to the output features of the position encoder, with content and style voxel grid features as reference. With the adjusted features, the stylization of novel view images could be obtained. Our method extends the style target from style images to image sets of scenes and does not require additional network training for stylization. Given a set of images of 3D scenes and a style target(a style image or another set of 3D scenes), our method can generate stylized novel views with a consistent appearance at various view angles in less than 10 minutes on modern GPU hardware. Extensive experimental results demonstrate the validity and superiority of our method.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICME 2023</div><img src='images/Rendering_and_Reconstruction_Based_3D_Portrait_Stylization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Rendering and Reconstruction Based 3D Portrait Stylization](https://ieeexplore.ieee.org/abstract/document/10219933)
+
+Shaoxu Li, **Ye Pan**
+
+- Both 2D images and 3D models are vital aspects of portrait applications. Existing style transfer methods principally emphasized 2D images, neglecting the urge for 3D style transfer. We propose rendering and reconstruction based 3D portrait stylization. And we present the first geometry-aware stereoscopic image stylization. Our framework requires one content image and one style image to obtain a 3D stylization portrait. In the first step, 3D face reconstruction produces a 3D face model. We excute stereoscopic rendering to the model and reserve the images and parameters. We propose to perform the perspective transformation on one style image to match two content images. Then we use disparity loss to conduct a geometry-aware stereoscopic stylization. Using stereoscopic stylization images, we calculate the 3D stylization portrait using a stereoscopic 3D reconstruction algorithm. Expect for portraits, the framework applies to models with simple shapes. Extensive experiments demonstrate the validity and robustness of our method.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2023</div><img src='images/Double_Doodles_Sketching_Animation_in_Immersive_Environment_With_3_6_DOFs_Motion_Gestures.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Double Doodles: Sketching Animation in Immersive Environment With 3+ 6 DOFs Motion Gestures](https://dl.acm.org/doi/abs/10.1145/3581783.3613783)
+
+Ruizhao Chen, **Ye Pan**, Zhigang Deng, Lili Wang, Lizhuang Ma
+
+- We present "Double Doodles'' to make full use of two sequential inputs of a VR controller with 9 DOFs in total, 3 DOFs of the first input sequence for the generation of motion paths and 6 DOFs of the second input sequence for motion gestures. While engineering our system, we take ergonomics into consideration and design a set of user-defined motion gestures to describe character motions. We employ a real-time deep learning-based approach for highly accurate motion gesture classification. We then integrate our approach into a prototype system, and it allows users to directly create character animations in VR environments using motion gestures with a VR controller, followed by animation preview and animation interactive editing. Finally, we evaluate the feasibility and effectiveness of our system through a user study, demonstrating the usefulness of our system for visual storytelling dedicated to amateurs, as well as for providing fast drafting tools for artists.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH Courses 2023</div><img src='images/State_of_the_Art_in_Telepresence_Part_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[State of the Art in Telepresence (Part 1)](https://dl.acm.org/doi/abs/10.1145/3587423.3595484)
+
+Jason Lawrence, **Ye Pan**, Dan B Goldman, Rachel McDonnell, Carol O'Sullivan, Dave Luebke, Koki Nagano, Michael Zollhoefer, Jason Saragih
+
+- the use of virtual reality technology, especially for remote control of machinery or for apparent participation in distant events
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2022</div><img src='images/Enabling_grasp_action_generalized_quality_evaluation_of_grasp_stability_via_contact_stiffness_from_contact_mechanics_insight.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Enabling massage actions: An interactive parallel robot with compliant joints](https://ieeexplore.ieee.org/abstract/document/9981235)
+
+Huixu Dong, Yue Feng, Chen Qiu, **Ye Pan**, Miao He, I-Ming Chen
+
+- We propose a parallel massage robot with compliant joints based on the series elastic actuator (SEA), offering a unified force-position control approach. First, the kinematic and static force models are established for obtaining the corresponding control variables. Then, a novel force-position control strategy is proposed to separately control the force-position along the normal direction of the surface and another two-direction displacement, without the requirement of a robotic dynamics model. To evaluate its performance, we implement a series of robotic massage experiments. The results demonstrate that the proposed massage manipulator can successfully achieve desired forces and motion patterns of massage tasks, arriving at a high-score user experience.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">US Patent 2022</div><img src='images/Augmenting_a physical_object_with_virtual_components.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Augmenting a physical object with virtual components](https://patents.google.com/patent/US11024098B1/en)
+
+Corey D Drake, Kenneth J Mitchell, Rachel E Rodgers, Joseph G Hager IV, Kyna P McIntosh, **Ye Pan**
+
+- Systems and methods are presented for immersive and simultaneous animation in a mixed reality environment. Techniques disclosed represent a physical object, present at a scene, in a 3D space of a virtual environment associated with the scene. A virtual element is posed relative to the representation of the physical object in the virtual environ ment. The virtual element is displayed to users from a perspective of each user in the virtual environment. Respon sive to an interaction of one user with the virtual element, an edit command is generated and the pose of the virtual element is adjusted in the virtual environment according to the edit command. The display of the virtual element to the users is then updated according to the adjusted pose. When simultaneous and conflicting edit commands are generated by collaborating users, policies to reconcile the conflicting edit commands are disclosed.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VRW 2022</div><img src='images/MienCap_Performance-based_Facial_Animation_with_Live_Mood_Dynamics.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MienCap: Performance-based facial animation with live mood dynamics](https://ieeexplore.ieee.org/abstract/document/9757516)
+
+**Ye Pan**, Ruisi Zhang, Jingying Wang, Nengfu Chen, Yilin Qiu, Yu Ding, Kenny Mitchell
+
+- Our purpose is to improve performance-based animation which can drive believable 3D stylized characters that are truly perceptual. By combining traditional blendshape animation techniques with machine learning models, we present a real time motion capture system, called MienCap, which drive character expressions in a geometrically consistent and perceptually valid way. We demon-strate the effectiveness of our system by comparing to a commercial product Faceware. Results reveal that ratings of the recognition of expressions depicted for animated characters via our systems are statistically higher than Faceware. Our results may be implemented into the VR filmmaking and animation pipeline, and provide animators with a system for creating the expressions they wish to use more quickly and accurately.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISMAR-Adjunct 2022</div><img src='images/3DBrushVR_From_Virtual_Reality_Primitives_to_Complex_Manifold_Objects.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[3DBrushVR: From Virtual Reality Primitives to Complex Manifold Objects](https://ieeexplore.ieee.org/abstract/document/9974494)
+
+Yuzhen Zhu, Xiangjun Tang, Jing Zhang, **Ye Pan**, Jingjing Shen, Xiaogang Jin
+
+- SurfaceBrush and Brush2Model are two systems which enable users to create 3D objects intuitively using a hand-held controller in virtual reality (VR). These state-of-the-art methods either start modeling from dense collections of stroke ribbons drawn by professional artists, or from the most basic point skeletons, line skeletons, and polygon skeletons. Thus, it is very challenging for novices and amateurs to design complex models efficiently. We propose 3D-BrushVR, a novel VR modeling tool that uses volume skeleton-based convolution surfaces. It enables the user to draw with arbitrarily shaped brushes and generate 3D manifold objects by fusing the brushed primitives. Unlike existing VR drawing and modeling tools, our approach can directly take some common but complex objects as primitives, and assemble them using implicit surfaces, thus providing a more flexible and powerful modeling ability. To achieve real-time performance, we introduce a new GPU-based method to calculate the volume fields of the resulting convolution surfaces. We also introduce several specially designed time-varying shaders to render the designed model for a better and more appealing modeling experience. We demonstrate the usability and modeling ability of our 3DBrushVR interface by comparing it with the state-of-the-art methods in an observational study. Experimental results further validate the effectiveness and flexibility of our approach.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH Courses 2022</div><img src='images/State_of_the_art_in_telepresence.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[State of the art in telepresence](https://dl.acm.org/doi/abs/10.1145/3532720.3535679)
+
+Jason Lawrence, **Ye Pan**, Dan B Goldman, Rachel McDonnell, Julie Robillard, Carol O'Sullivan, Yaser Sheikh, Michael Zollhoefer, Jason Saragih
+
+- Welcome everybody! I am Michael a Research Scientist from Reality Labs Research in Pittsburgh. Today, I want to talk about “Complete Codec Telepresence”, how this is related to the concept of the “Trinity of Telepresence”, and provide you with a deep dive into our technology to render photorealistic avatars and spaces.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CADCG 2022</div><img src='images/Stylized_Avatar_Animation_Based_on_Deep_Learning.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Stylized Avatar Animation Based on Deep Learning](https://www.jcad.cn/en/article/doi/10.3724/SP.J.1089.2022.19006)
+
+Ruisi Zhang, **Ye Pan**
+
+- Animating 3D character rigs from human faces requires both geometry features and facial expression information.However,traditional animation approaches such as ARkit failed to connect character storytelling to the audience because the character expressions are hard to recognize.However,recent emotion-based motion capture techniques,such as ExprGen,consider using facial emotion for facial capture.But it is difficult to characterize the details of the character’s face.A network is proposed to incorporate facial expressions into animation.Firstly,an emotion recognition neural network is used to match human and character datasets.Then,an end-to-end neural network is trained to extract character facial expressions and transfer rig parameters to characters.Finally,human face geometry is utilized to refine rig parameters.Qualitative analysis of the generated character expressions,and quantitative analysis of the attractiveness and intensity of the character expression have demonstrated the accuracy and real-time of the model.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2021</div><img src='images/HPOF_3d_human_pose_recovery_from_monocular_video_with_optical_flow.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Hpof: 3d human pose recovery from monocular video with optical flow](https://dl.acm.org/doi/abs/10.1145/3460426.3463605)
+
+Bin Ji, Chen Yang, Yao Shunyu, **Ye Pan**
+
+- This paper introduces HPOF, a novel deep neural network to reconstruct the 3D human motion from a monocular video. Recently, model-based methods have been proposed to simplify the reconstruction task by estimating several parameters that control a deformable surface model to fit the person in the image. However, learning the parameters from a single image is a highly ill-posed problem, and the process is ultimately data-hungry. Existing 3D datasets are not sufficient, and the usage of 2D in-the-wild datasets is often susceptible to the inadequate precision of manual annotations. To address the above issues, our method yields substantial improvements in two domains. First, we leverage optical flow to supervise the 2D rendered images of predicted SMPL models to learn short-term temporal features. Besides, taking long-term temporal consistency into account, we define a novel temporal encoder based on a dilated convolutional network. The encoder decomposes the learning process of human shape and pose, first guarantees the invariance of the body shape, and then simulates a more reasonable forward kinematics process on this basis to achieve more accurate pose estimation. In addition, an adversarial learning framework is applied to supervise the reconstruction progress in a coarse-grained way. We show that HPOF not only improves the accuracy of 3D poses but ensures the realistic body structure throughout the video. We perform extensive experimentation to demonstrate the superiority of our method and analyze the effectiveness of our model, surpassing other state-of-the-arts.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">US Patent 2021</div><img src='images/Gaze_based_rendering_for_audience_engagement.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
