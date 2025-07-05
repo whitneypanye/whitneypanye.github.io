@@ -43,7 +43,7 @@ Bin Ji, **Ye Pan**, Zhimeng Liu, Shuai Tan, Xiaokang Yang
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='images/VASA-Rig_Audio-Driven_3D_Facial_Animation_with_‘Live’_Mood_Dynamics_in_virtual_Reality.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='images/VASA-Rig_Audio-Driven_3D_Facial_Animation_with_Live_Mood_Dynamics_in_virtual_Reality.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Vasa-rig: Audio-driven 3d facial animation with ‘live’mood dynamics in virtual reality](https://ieeexplore.ieee.org/abstract/document/10916977)
@@ -319,7 +319,7 @@ Huixu Dong, Yue Feng, Chen Qiu, **Ye Pan**, Miao He, I-Ming Chen
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">US Patent 2022</div><img src='images/Augmenting_a physical_object_with_virtual_components.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">US Patent 2022</div><img src='images/Augmenting_a physical_object_with_virtual_components.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Augmenting a physical object with virtual components](https://patents.google.com/patent/US11024098B1/en)
