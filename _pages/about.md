@@ -25,8 +25,7 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.07*: &nbsp;🎉🎉 2 papers accepted to ACMMM 2025
 
 # 📝 Publications 
 
