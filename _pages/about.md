@@ -31,14 +31,50 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='images/EDTalk_Efficient_Disentanglement_for_Emotional_Talking_Head_Synthesis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurocomputing 2025</div><img src='images/AniArtAvatar_Animatable_3D_art_avatar_from_a_single_image.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Edtalk: Efficient disentanglement for emotional talking head synthesis](https://link.springer.com/chapter/10.1007/978-3-031-72658-3_23)
+[AniArtAvatar: Animatable 3D art avatar from a single image](https://www.sciencedirect.com/science/article/pii/S0925231225003789)
 
-Shuai Tan, Bin Ji, Mengxiao Bi, **Ye Pan**
+Shaoxu Li, **Ye Pan**
 
-- Achieving disentangled control over multiple facial motions and accommodating diverse input modalities greatly enhances the application and entertainment of the talking head generation. This necessitates a deep exploration of the decoupling space for facial features, ensuring that they a) operate independently without mutual interference and b) can be preserved to share with different modal inputs-both aspects often neglected in existing methods. To address this gap, this paper proposes a novel Efficient Disentanglement framework for Talking head generation (EDTalk). Our framework enables individual manipulation of mouth shape, head pose, and emotional expression, conditioned on video or audio inputs. Specifically, we employ three lightweight modules to decompose the facial dynamics into three distinct latent spaces representing mouth, pose, and expression, respectively. Each space is characterized by a set of learnable bases whose linear combinations define specific motions. To ensure independence and accelerate training, we enforce orthogonality among bases and devise an efficient training strategy to allocate motion responsibilities to each space without relying on external knowledge. The learned bases are then stored in corresponding banks, enabling shared visual priors with audio input. Furthermore, considering the properties of each space, we propose an Audio-to-Motion module for audio-driven talking head synthesis. Experiments are conducted to demonstrate the effectiveness of EDTalk. The code and pretrained models are released at: [https://tanshuai0219.github.io/EDTalk/](https://tanshuai0219.github.io/EDTalk/)
+- We present a novel approach for generating animatable 3D-aware art avatars from a single image, with controllable facial expressions, head poses, and shoulder movements. Unlike previous reenactment methods, our approach utilizes a pre-trained view-conditioned 2D diffusion model to synthesize multi-view images from a single art portrait with a neutral expression. With the generated colors and normals, we synthesize a static avatar using an SDF-based neural surface. For avatar animation, we extract control points, transfer the motion with these points, and deform the implicit canonical space. Firstly, we render the front image of the avatar, extract the 2D landmarks, and project them to the 3D space using a trained SDF network. We extract 3D driving landmarks using 3DMM and transfer the motion to the avatar landmarks. We deform the SDF-based neural surface utilizing neutral and expressive 3D avatar landmarks to animate the expression. To animate the avatar pose, we manually set the body height and bound the head and torso of an avatar with two cages. The head and torso can be animated by transforming the two cages. Our approach is a one-shot pipeline that can be applied to various styles. Experiments demonstrate that our method can generate high-quality 3D art avatars with desired control over different motions.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='images/Sport_From_zero-shot_prompts_to_real-time_motion_generation.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Sport: From zero-shot prompts to real-time motion generation](https://ieeexplore.ieee.org/abstract/document/10891181)
+
+Bin Ji, **Ye Pan**, Zhimeng Liu, Shuai Tan, Xiaokang Yang
+
+- Real-time motion generation has garnered significant attention within the fields of computer animation and gaming. Existing methods typically realize motion control via isolated style or content labels, resulting in short, simply motion clips. In this paper, we propose a motion generation framework, called SPORT (“from zero-Shot Prompt tO Real-Time motion generation”), for generating real-time and ever-changing motions using zero-shot prompts. SPORT consists of three primary components: (1) a body-part phase autoencoder that ensures smooth transitions between diverse motions; (2) a body-part content encoder that mitigates semantic gap between texts and motions; (3) a diffusion-based decoder that accelerates the denoising process while enhancing the diversity and realism of motions. Moreover, we develop a prototype for real-time application in Unity, demonstrating that our approach effectively considering the semantic gap caused by abstract style texts and rapidly changing terrains. Through qualitative and quantitative comparisons, we show that SPORT outperforms other approaches in terms of motion quality, style diversity and inference speed.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='images/VASA-Rig_Audio-Driven_3D_Facial_Animation_with_‘Live’_Mood_Dynamics_in_virtual_Reality.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Vasa-rig: Audio-driven 3d facial animation with ‘live’mood dynamics in virtual reality](https://ieeexplore.ieee.org/abstract/document/10916977)
+
+**Ye Pan**, Chang Liu, Sicheng Xu, Shuai Tan, Jiaolong Yang
+
+- Audio-driven 3D facial animation is crucial for enhancing the metaverse's realism, immersion, and interactivity. While most existing methods focus on generating highly realistic and lively 2D talking head videos by leveraging extensive 2D video datasets these approaches work in pixel space and are not easily adaptable to 3D environments. We present VASA-Rig, which has achieved a significant advancement in the realism of lip-audio synchronization, facial dynamics, and head movements. In particular, we introduce a novel rig parameter-based emotional talking face dataset and propose the Latents2Rig model, which facilitates the transformation of 2D facial animations into 3D. Unlike mesh-based models, VASA-Rig outputs rig parameters, instantiated in this paper as 174 Metahuman rig parameters, making it more suitable for integration into industry-standard pipelines. Extensive experimental results demonstrate that our approach significantly outperforms existing state-of-the-art methods in terms of both realism and accuracy.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/POMP_Physics-constrainable_Motion_Generative_Model_through_Phase_Manifolds.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[POMP: Physics-consistent Motion Generative Model through Phase Manifolds](https://openaccess.thecvf.com/content/CVPR2025/html/Ji_POMP_Physics-consistent_Motion_Generative_Model_through_Phase_Manifolds_CVPR_2025_paper.html)
+
+Bin Ji, **Ye Pan**, Zhimeng Liu, Shuai Tan, Xiaogang Jin, Xiaokang Yang
+
+- Numerous researches on real-time motion generation primarily focus on kinematic aspects, often resulting in physically implausible outcomes. In this paper, we present POMP ("Physics-cOnsistent Human Motion Prior through Phase Manifolds"), a novel kinematics-based framework that synthesizes physically consistent motions by leveraging phase manifolds to align motion priors with physics constraints. POMP operates as a frame-by-frame autoregressive model with three core components: a diffusion-based kinematic module, a simulation-based dynamic module, and a phase encoding module. At each timestep, the kinematic module generates an initial target pose, which is subsequently refined by the dynamic module to simulate human-environment interactions. Although the physical simulation ensures adherence to physical laws, it may compromise the kinematic rationality of the posture. Consequently, directly using the simulated result for subsequent frame prediction may lead to cumulative errors. To address this, the phase encoding module performs semantic alignment in the phase manifold. Moreover, we present a pipeline in Unity for generating terrain maps and capturing full-body motion impulses from existing motion capture (MoCap) data. The collected terrain topology and motion impulse data facilitate the training of POMP, enabling it to robustly respond to underlying contactforces and applied dynamics. Extensive evaluations demonstrate the efficacy of POMP across various contexts, terrains, and physical interactions.
 </div>
 </div>
 
