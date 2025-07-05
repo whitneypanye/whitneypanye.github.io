@@ -67,7 +67,19 @@ Bin Ji, **Ye Pan**, Zhimeng Liu, Shuai Tan, Xiaogang Jin, Xiaokang Yang
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='images/EDTalk_Efficient_Disentanglement_for_Emotional_Talking_Head_Synthesis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurocomputing 2025</div><img src='images/AniArtAvatar_Animatable_3D_art_avatar_from_a_single_image.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AniArtAvatar: Animatable 3D art avatar from a single image](https://www.sciencedirect.com/science/article/pii/S0925231225003789)
+
+Shaoxu Li, **Ye Pan**
+
+- We present a novel approach for generating animatable 3D-aware art avatars from a single image, with controllable facial expressions, head poses, and shoulder movements. Unlike previous reenactment methods, our approach utilizes a pre-trained view-conditioned 2D diffusion model to synthesize multi-view images from a single art portrait with a neutral expression. With the generated colors and normals, we synthesize a static avatar using an SDF-based neural surface. For avatar animation, we extract control points, transfer the motion with these points, and deform the implicit canonical space. Firstly, we render the front image of the avatar, extract the 2D landmarks, and project them to the 3D space using a trained SDF network. We extract 3D driving landmarks using 3DMM and transfer the motion to the avatar landmarks. We deform the SDF-based neural surface utilizing neutral and expressive 3D avatar landmarks to animate the expression. To animate the avatar pose, we manually set the body height and bound the head and torso of an avatar with two cages. The head and torso can be animated by transforming the two cages. Our approach is a one-shot pipeline that can be applied to various styles. Experiments demonstrate that our method can generate high-quality 3D art avatars with desired control over different motions.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2024</div><img src='images/EDTalk_Efficient_Disentanglement_for_Emotional_Talking_Head_Synthesis.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Edtalk: Efficient disentanglement for emotional talking head synthesis](https://link.springer.com/chapter/10.1007/978-3-031-72658-3_23)
@@ -79,7 +91,7 @@ Shuai Tan, Bin Ji, Mengxiao Bi, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/FlowVQTalker_High-Quality_Emotional_Talking_Face_Generation_through_Normalizing_Flow_and_Quantization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images/FlowVQTalker_High-Quality_Emotional_Talking_Face_Generation_through_Normalizing_Flow_and_Quantization.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Flowvqtalker: High-quality emotional talking face generation through normalizing flow and quantization](https://openaccess.thecvf.com/content/CVPR2024/html/Tan_FlowVQTalker_High-Quality_Emotional_Talking_Face_Generation_through_Normalizing_Flow_and_CVPR_2024_paper.html)
@@ -91,7 +103,7 @@ Shuai Tan, Bin Ji, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/Style2Talker_High-Resolution_Talking_Head_Generation_with_Emotion_Style_and_Art_Style.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/Style2Talker_High-Resolution_Talking_Head_Generation_with_Emotion_Style_and_Art_Style.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Style2talker: High-resolution talking head generation with emotion style and art style](https://ojs.aaai.org/index.php/AAAI/article/view/28313)
@@ -103,7 +115,7 @@ Shuai Tan, Bin Ji, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/Say_anything_with_any_style.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2024</div><img src='images/Say_anything_with_any_style.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Say anything with any style](https://ojs.aaai.org/index.php/AAAI/article/view/28314)
@@ -115,7 +127,7 @@ Shuai Tan, Bin Ji, Yu Ding, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2024</div><img src='images/Expressive_Talking_Avatars.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2024</div><img src='images/Expressive_Talking_Avatars.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Expressive talking avatars](https://ieeexplore.ieee.org/abstract/document/10458318)
@@ -139,7 +151,7 @@ Shaoxu Li, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='images/HyperStyle3D_Text-Guided_3D_Portrait_Stylization_via_Hypernetworks.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCSVT 2024</div><img src='images/HyperStyle3D_Text-Guided_3D_Portrait_Stylization_via_Hypernetworks.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Hyperstyle3d: Text-guided 3d portrait stylization via hypernetworks](https://ieeexplore.ieee.org/abstract/document/10542240)
@@ -151,7 +163,7 @@ Zhuo Chen, Xudong Xu, Yichao Yan, **Ye Pan**, Wenhan Zhu, Wayne Wu, Bo Dai, Xiao
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VR 2024</div><img src='images/EmoFace_Audio-driven_Emotional_3D_Face_Animation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VR 2024</div><img src='images/EmoFace_Audio-driven_Emotional_3D_Face_Animation.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [EmoFace: Audio-driven emotional 3D face animation](https://ieeexplore.ieee.org/abstract/document/10494180)
@@ -163,7 +175,7 @@ Chang Liu, Qunfen Lin, Zijiao Zeng, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='images/Instant_Photorealistic_Neural_Radiance_Fields_Stylization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICASSP 2024</div><img src='images/Instant_Photorealistic_Neural_Radiance_Fields_Stylization.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Instant photorealistic neural radiance fields stylization](https://ieeexplore.ieee.org/abstract/document/10446082)
@@ -175,7 +187,7 @@ Shaoxu Li, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TOMM 2024</div><img src='images/Head3D_complete_3D_head_generation_via_tri-plane_feature_distillation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TOMM 2024</div><img src='images/Head3D_complete_3D_head_generation_via_tri-plane_feature_distillation.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Head3d: Complete 3d head generation via tri-plane feature distillation](https://dl.acm.org/doi/full/10.1145/3635717)
@@ -199,7 +211,7 @@ Shengran Cheng, Chuhang Ma, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/EMMN_Emotional_Motion_Memory_Network_for_Audio-driven_Emotional_Talking_Face.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/EMMN_Emotional_Motion_Memory_Network_for_Audio-driven_Emotional_Talking_Face.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Emmn: Emotional motion memory network for audio-driven emotional talking face generation](https://openaccess.thecvf.com/content/ICCV2023/html/Tan_EMMN_Emotional_Motion_Memory_Network_for_Audio-driven_Emotional_Talking_Face_ICCV_2023_paper.html)
@@ -211,7 +223,7 @@ Shuai Tan, Bin Ji, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2023</div><img src='images/Emotional_Voice_Puppetry.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2023</div><img src='images/Emotional_Voice_Puppetry.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Emotional voice puppetry](https://ieeexplore.ieee.org/abstract/document/10049691)
@@ -223,7 +235,7 @@ Shuai Tan, Bin Ji, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2023</div><img src='images/Real-time_facial_animation_for_3d_stylized_character_with_emotion_dynamics.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2023</div><img src='images/Real-time_facial_animation_for_3d_stylized_character_with_emotion_dynamics.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Real-time facial animation for 3d stylized character with emotion dynamics](https://dl.acm.org/doi/abs/10.1145/3581783.3613803)
@@ -235,7 +247,7 @@ Shuai Tan, Bin Ji, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2023</div><img src='images/StyleVR_Stylizing_Character_Animations_With_Normalizing_Flows.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2023</div><img src='images/StyleVR_Stylizing_Character_Animations_With_Normalizing_Flows.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Stylevr: Stylizing character animations with normalizing flows](https://ieeexplore.ieee.org/abstract/document/10076832)
@@ -247,7 +259,7 @@ Bin Ji, **Ye Pan**, Yichao Yan, Ruizhao Chen, Xiaokang Yang
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VR 2023</div><img src='images/Fully_Automatic_Blendshape_Generation_for_Stylized_Characters.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VR 2023</div><img src='images/Fully_Automatic_Blendshape_Generation_for_Stylized_Characters.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Fully Automatic Blendshape Generation for Stylized Characters](https://ieeexplore.ieee.org/abstract/document/10108478)
@@ -259,7 +271,7 @@ Jingying Wang, Yilin Qiu, Keyu Chen, Yu Ding, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICME 2023</div><img src='images/Rendering_and_Reconstruction_Based_3D_Portrait_Stylization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICME 2023</div><img src='images/Rendering_and_Reconstruction_Based_3D_Portrait_Stylization.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Rendering and Reconstruction Based 3D Portrait Stylization](https://ieeexplore.ieee.org/abstract/document/10219933)
@@ -271,7 +283,7 @@ Shaoxu Li, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2023</div><img src='images/Double_Doodles_Sketching_Animation_in_Immersive_Environment_With_3_6_DOFs_Motion_Gestures.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2023</div><img src='images/Double_Doodles_Sketching_Animation_in_Immersive_Environment_With_3_6_DOFs_Motion_Gestures.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Double Doodles: Sketching Animation in Immersive Environment With 3+ 6 DOFs Motion Gestures](https://dl.acm.org/doi/abs/10.1145/3581783.3613783)
@@ -283,7 +295,7 @@ Ruizhao Chen, **Ye Pan**, Zhigang Deng, Lili Wang, Lizhuang Ma
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH Courses 2023</div><img src='images/State_of_the_Art_in_Telepresence_Part_1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH Courses 2023</div><img src='images/State_of_the_Art_in_Telepresence_Part_1.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [State of the Art in Telepresence (Part 1)](https://dl.acm.org/doi/abs/10.1145/3587423.3595484)
@@ -295,7 +307,7 @@ Jason Lawrence, **Ye Pan**, Dan B Goldman, Rachel McDonnell, Carol O'Sullivan, D
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2022</div><img src='images/Enabling_grasp_action_generalized_quality_evaluation_of_grasp_stability_via_contact_stiffness_from_contact_mechanics_insight.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2022</div><img src='images/Enabling_grasp_action_generalized_quality_evaluation_of_grasp_stability_via_contact_stiffness_from_contact_mechanics_insight.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Enabling massage actions: An interactive parallel robot with compliant joints](https://ieeexplore.ieee.org/abstract/document/9981235)
@@ -307,7 +319,7 @@ Huixu Dong, Yue Feng, Chen Qiu, **Ye Pan**, Miao He, I-Ming Chen
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">US Patent 2022</div><img src='images/Augmenting_a physical_object_with_virtual_components.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">US Patent 2022</div><img src='images/Augmenting_a physical_object_with_virtual_components.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Augmenting a physical object with virtual components](https://patents.google.com/patent/US11024098B1/en)
@@ -319,7 +331,7 @@ Corey D Drake, Kenneth J Mitchell, Rachel E Rodgers, Joseph G Hager IV, Kyna P M
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VRW 2022</div><img src='images/MienCap_Performance-based_Facial_Animation_with_Live_Mood_Dynamics.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VRW 2022</div><img src='images/MienCap_Performance-based_Facial_Animation_with_Live_Mood_Dynamics.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [MienCap: Performance-based facial animation with live mood dynamics](https://ieeexplore.ieee.org/abstract/document/9757516)
@@ -331,7 +343,7 @@ Corey D Drake, Kenneth J Mitchell, Rachel E Rodgers, Joseph G Hager IV, Kyna P M
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISMAR-Adjunct 2022</div><img src='images/3DBrushVR_From_Virtual_Reality_Primitives_to_Complex_Manifold_Objects.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISMAR-Adjunct 2022</div><img src='images/3DBrushVR_From_Virtual_Reality_Primitives_to_Complex_Manifold_Objects.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [3DBrushVR: From Virtual Reality Primitives to Complex Manifold Objects](https://ieeexplore.ieee.org/abstract/document/9974494)
@@ -343,7 +355,7 @@ Yuzhen Zhu, Xiangjun Tang, Jing Zhang, **Ye Pan**, Jingjing Shen, Xiaogang Jin
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH Courses 2022</div><img src='images/State_of_the_art_in_telepresence.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGGRAPH Courses 2022</div><img src='images/State_of_the_art_in_telepresence.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [State of the art in telepresence](https://dl.acm.org/doi/abs/10.1145/3532720.3535679)
@@ -355,7 +367,7 @@ Jason Lawrence, **Ye Pan**, Dan B Goldman, Rachel McDonnell, Julie Robillard, Ca
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CADCG 2022</div><img src='images/Stylized_Avatar_Animation_Based_on_Deep_Learning.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CADCG 2022</div><img src='images/Stylized_Avatar_Animation_Based_on_Deep_Learning.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Stylized Avatar Animation Based on Deep Learning](https://www.jcad.cn/en/article/doi/10.3724/SP.J.1089.2022.19006)
@@ -367,7 +379,7 @@ Ruisi Zhang, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2021</div><img src='images/HPOF_3d_human_pose_recovery_from_monocular_video_with_optical_flow.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICMR 2021</div><img src='images/HPOF_3d_human_pose_recovery_from_monocular_video_with_optical_flow.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Hpof: 3d human pose recovery from monocular video with optical flow](https://dl.acm.org/doi/abs/10.1145/3460426.3463605)
@@ -379,7 +391,7 @@ Bin Ji, Chen Yang, Yao Shunyu, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">US Patent 2021</div><img src='images/Gaze_based_rendering_for_audience_engagement.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">US Patent 2021</div><img src='images/Gaze_based_rendering_for_audience_engagement.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Gaze based rendering for audience engagement](https://patents.google.com/patent/US11189047B2/en)
@@ -391,7 +403,7 @@ Bin Ji, Chen Yang, Yao Shunyu, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CG 2021</div><img src='images/Foreward_to_the_special_section_on_the_Reality-Virtuality_Continuum_and_its_Applications_(RVCA).png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CG 2021</div><img src='images/Foreward_to_the_special_section_on_the_Reality-Virtuality_Continuum_and_its_Applications_(RVCA).jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Foreward to the Special Section on the Reality-Virtuality Continuum and its Applications (RVCA)](https://napier-repository.worktribe.com/output/2776183)
@@ -403,7 +415,7 @@ Mashhuda Glencross, Kenny Mitchell, Billinghurst Mark, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers in virtual reality 2020</div><img src='images/The_rocketbox_library_and_the_utility_of_freely_available_rigged_avatars.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers in virtual reality 2020</div><img src='images/The_rocketbox_library_and_the_utility_of_freely_available_rigged_avatars.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [The rocketbox library and the utility of freely available rigged avatars](https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2020.561558/full)
@@ -415,7 +427,7 @@ Mar Gonzalez-Franco, Eyal Ofek, **Ye Pan**, Angus Antley, Anthony Steed, Bernhar
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VR 2020</div><img src='images/PoseMMR_A_Collaborative_Mixed_Reality_Authoring_Tool_for_Character_Animation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VR 2020</div><img src='images/PoseMMR_A_Collaborative_Mixed_Reality_Authoring_Tool_for_Character_Animation.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [PoseMMR: A Collaborative Mixed Reality Authoring Tool for Character Animation](https://ieeexplore.ieee.org/abstract/document/9090677)
@@ -427,7 +439,7 @@ Mar Gonzalez-Franco, Eyal Ofek, **Ye Pan**, Angus Antley, Anthony Steed, Bernhar
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2020</div><img src='images/Pose-Guided_Person_Image_Synthesis_in_the_Non-Iconic_Views.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TIP 2020</div><img src='images/Pose-Guided_Person_Image_Synthesis_in_the_Non-Iconic_Views.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Pose-guided person image synthesis in the non-iconic views](https://ieeexplore.ieee.org/document/9200521)
@@ -439,7 +451,7 @@ Chengming Xu, Yanwei Fu, Chao Wen, **Ye Pan**, Yu-Gang Jiang, Xiangyang Xue
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VRW 2020</div><img src='images/Group-Based_Expert_Walkthroughs_How_Immersive_Technologies_Can_Facilitate_the_Collaborative_Authoring_of_Character_Animation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VRW 2020</div><img src='images/Group-Based_Expert_Walkthroughs_How_Immersive_Technologies_Can_Facilitate_the_Collaborative_Authoring_of_Character_Animation.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Group-based expert walkthroughs: How immersive technologies can facilitate the collaborative authoring of character animation](https://ieeexplore.ieee.org/document/9090619)
@@ -451,7 +463,7 @@ Chengming Xu, Yanwei Fu, Chao Wen, **Ye Pan**, Yu-Gang Jiang, Xiangyang Xue
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJHCS 2020</div><img src='images/Improving_VIP_viewer_gaze_estimation_and_engagement_using_adaptive_dynamic_anamorphosis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJHCS 2020</div><img src='images/Improving_VIP_viewer_gaze_estimation_and_engagement_using_adaptive_dynamic_anamorphosis.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Improving VIP viewer gaze estimation and engagement using adaptive dynamic anamorphosis](https://www.sciencedirect.com/science/article/abs/pii/S1071581920301658)
@@ -463,7 +475,7 @@ Chengming Xu, Yanwei Fu, Chao Wen, **Ye Pan**, Yu-Gang Jiang, Xiangyang Xue
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers in Robotics and AI 2019</div><img src='images/How_foot_tracking_matters_The_impact_of_an_animated_self-avatar_on_interaction_embodiment_and_presence_in_shared_virtual_environments.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers in Robotics and AI 2019</div><img src='images/How_foot_tracking_matters_The_impact_of_an_animated_self-avatar_on_interaction_embodiment_and_presence_in_shared_virtual_environments.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [How foot tracking matters: The impact of an animated self-avatar on interaction, embodiment and presence in shared virtual environments](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2019.00104/full)
@@ -475,7 +487,7 @@ Chengming Xu, Yanwei Fu, Chao Wen, **Ye Pan**, Yu-Gang Jiang, Xiangyang Xue
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VRST 2019</div><img src='images/Avatar_type_affects_performance_of_cognitive_tasks_in_virtual_reality.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VRST 2019</div><img src='images/Avatar_type_affects_performance_of_cognitive_tasks_in_virtual_reality.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Avatar type affects performance of cognitive tasks in virtual reality](https://dl.acm.org/doi/abs/10.1145/3359996.3364270)
@@ -487,7 +499,7 @@ Chengming Xu, Yanwei Fu, Chao Wen, **Ye Pan**, Yu-Gang Jiang, Xiangyang Xue
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISMAR 2019</div><img src='images/Accurate_and_fast_classification_of_foot_gestures_for_virtual_locomotion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISMAR 2019</div><img src='images/Accurate_and_fast_classification_of_foot_gestures_for_virtual_locomotion.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Accurate and fast classification of foot gestures for virtual locomotion](https://ieeexplore.ieee.org/abstract/document/8943618)
@@ -499,7 +511,7 @@ Xinyu Shi, Junjun Pan, Zeyong Hu, Juncong Lin, Shihui Guo, Minghong Liao, **Ye P
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mechanism and Machine Theory 2019</div><img src='images/Enabling_grasp_action_generalized_quality_evaluation_of_grasp_stability_via_contact_stiffness_from_contact_mechanics_insight.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Mechanism and Machine Theory 2019</div><img src='images/Enabling_grasp_action_generalized_quality_evaluation_of_grasp_stability_via_contact_stiffness_from_contact_mechanics_insight.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Enabling grasp action: Generalized quality evaluation of grasp stability via contact stiffness from contact mechanics insight](https://www.sciencedirect.com/science/article/abs/pii/S0094114X18318639)
@@ -511,7 +523,7 @@ Huixu Dong, Chen Qiu, Dilip K Prasad, **Ye Pan**, Jiansheng Dai, I-Ming Chen
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIDS 2019</div><img src='images/JUNGLE_an_interactive_visual_platform_for_collaborative_creation_and_consumption_of_nonlinear_transmedia_stories.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIDS 2019</div><img src='images/JUNGLE_an_interactive_visual_platform_for_collaborative_creation_and_consumption_of_nonlinear_transmedia_stories.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [JUNGLE: an interactive visual platform for collaborative creation and consumption of nonlinear transmedia stories](https://link.springer.com/chapter/10.1007/978-3-030-33894-7_26)
@@ -523,7 +535,7 @@ Mubasir Kapadia, Carlos Manuel Muniz, Samuel S Sohn, **Ye Pan**, Sasha Schriber,
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers in Robotics and AI 2018</div><img src='images/We_Wait_the_impact_of_character_responsiveness_and_self_embodiment_on_presence_and_interest_in_an_immersive_news_experience.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers in Robotics and AI 2018</div><img src='images/We_Wait_the_impact_of_character_responsiveness_and_self_embodiment_on_presence_and_interest_in_an_immersive_news_experience.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [“We wait”—the impact of character responsiveness and self embodiment on presence and interest in an immersive news experience](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2018.00112/full)
@@ -535,7 +547,7 @@ Anthony Steed, **Ye Pan**, Zillah Watson, Mel Slater
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CAVW 2018</div><img src='images/Empowerment_and_embodiment_for_collaborative_mixed_reality_systems.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CAVW 2018</div><img src='images/Empowerment_and_embodiment_for_collaborative_mixed_reality_systems.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Empowerment and embodiment for collaborative mixed reality systems](https://onlinelibrary.wiley.com/doi/abs/10.1002/cav.1838)
@@ -547,7 +559,7 @@ Anthony Steed, **Ye Pan**, Zillah Watson, Mel Slater
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PloS one 2017</div><img src='images/The_impact_of_self-avatars_on_trust_and_collaboration_in_shared_virtual_environments.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">PloS one 2017</div><img src='images/The_impact_of_self-avatars_on_trust_and_collaboration_in_shared_virtual_environments.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [The impact of self-avatars on trust and collaboration in shared virtual environments](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189078)
@@ -559,7 +571,7 @@ Anthony Steed, **Ye Pan**, Zillah Watson, Mel Slater
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VR 2016</div><img src='images/The_impact_of_a_self-avatar_on_cognitive_load_in_immersive_virtual_reality.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VR 2016</div><img src='images/The_impact_of_a_self-avatar_on_cognitive_load_in_immersive_virtual_reality.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [The impact of a self-avatar on cognitive load in immersive virtual reality](https://ieeexplore.ieee.org/abstract/document/7504689)
@@ -571,7 +583,7 @@ Anthony Steed, **Ye Pan**, Fiona Zisch, William Steptoe
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2016</div><img src='images/An_in_the_wild_experiment_on_presence_and_embodiment_using_consumer_virtual_reality_equipment.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2016</div><img src='images/An_in_the_wild_experiment_on_presence_and_embodiment_using_consumer_virtual_reality_equipment.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [An ‘in the wild’experiment on presence and embodiment using consumer virtual reality equipment](https://ieeexplore.ieee.org/abstract/document/7383331)
@@ -583,7 +595,7 @@ Anthony Steed, Sebastian Frlston, Maria Murcia Lopez, Jason Drummond, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers in Robotics and AI 2016</div><img src='images/A_comparison_of_avatar_video_and_robot_mediated_interaction_on_users_trust_in_expertise.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Frontiers in Robotics and AI 2016</div><img src='images/A_comparison_of_avatar_video_and_robot_mediated_interaction_on_users_trust_in_expertise.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A comparison of avatar-, Video-, and robot-Mediated interaction on Users’ Trust in expertise](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2016.00012/full)
@@ -595,7 +607,7 @@ Anthony Steed, Sebastian Frlston, Maria Murcia Lopez, Jason Drummond, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJHCS 2016</div><img src='images/Effects_of_3D_perspective_on_head_gaze_estimation_with_a_multiview_autostereoscopic_display.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJHCS 2016</div><img src='images/Effects_of_3D_perspective_on_head_gaze_estimation_with_a_multiview_autostereoscopic_display.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Effects of 3D perspective on head gaze estimation with a multiview autostereoscopic display](https://onlinelibrary.wiley.com/doi/abs/10.1002/cav.1638)
@@ -607,7 +619,7 @@ Anthony Steed, Sebastian Frlston, Maria Murcia Lopez, Jason Drummond, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CAVW 2015</div><img src='images/Symmetric_telepresence_using_robotic_humanoid_surrogates.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CAVW 2015</div><img src='images/Symmetric_telepresence_using_robotic_humanoid_surrogates.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Symmetric telepresence using robotic humanoid surrogates](https://onlinelibrary.wiley.com/doi/abs/10.1002/cav.1638)
@@ -619,7 +631,7 @@ Arjun Nagendran, Anthony Steed, Brian Kelly, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2015</div><img src='images/An_empirical_study_on_display_ad_impression_viewability_measurements.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2015</div><img src='images/An_empirical_study_on_display_ad_impression_viewability_measurements.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [An empirical study on display ad impression viewability measurements](https://arxiv.org/abs/1505.05788)
@@ -631,7 +643,7 @@ Weinan Zhang, **Ye Pan**, Tianxiong Zhou, Jun Wang
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Presence 2015</div><img src='images/A_surround_video_capture_and_presentation_system_for_preservation_of_eye_gaze_in_teleconferencing_applications.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Presence 2015</div><img src='images/A_surround_video_capture_and_presentation_system_for_preservation_of_eye_gaze_in_teleconferencing_applications.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A surround video capture and presentation system for preservation of eye-gaze in teleconferencing applications](https://ieeexplore.ieee.org/abstract/document/7226422)
@@ -643,7 +655,7 @@ Weinan Zhang, **Ye Pan**, Tianxiong Zhou, Jun Wang
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGCHI 2014</div><img src='images/A_gaze_preserving_situated_multiview_telepresence_system.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGCHI 2014</div><img src='images/A_gaze_preserving_situated_multiview_telepresence_system.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [A gaze-preserving situated multiview telepresence system](https://dl.acm.org/doi/abs/10.1145/2556288.2557320)
@@ -655,7 +667,7 @@ Weinan Zhang, **Ye Pan**, Tianxiong Zhou, Jun Wang
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGCHI 2014</div><img src='images/Comparing_flat_and_spherical_displays_in_a_trust_scenario_in_avatar_mediated_interaction.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SIGCHI 2014</div><img src='images/Comparing_flat_and_spherical_displays_in_a_trust_scenario_in_avatar_mediated_interaction.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Comparing flat and spherical displays in a trust scenario in avatar-mediated interaction](https://dl.acm.org/doi/abs/10.1145/2556288.2557276)
@@ -667,7 +679,7 @@ Weinan Zhang, **Ye Pan**, Tianxiong Zhou, Jun Wang
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DTV 2012</div><img src='images/Preserving_gaze_direction_in_teleconferencing_using_a_camera_array_and_a_spherical_display.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">3DTV 2012</div><img src='images/Preserving_gaze_direction_in_teleconferencing_using_a_camera_array_and_a_spherical_display.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Preserving gaze direction in teleconferencing using a camera array and a spherical display](https://ieeexplore.ieee.org/abstract/document/6365433)
