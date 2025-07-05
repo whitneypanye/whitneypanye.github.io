@@ -31,18 +31,6 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurocomputing 2025</div><img src='images/AniArtAvatar_Animatable_3D_art_avatar_from_a_single_image.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[AniArtAvatar: Animatable 3D art avatar from a single image](https://www.sciencedirect.com/science/article/pii/S0925231225003789)
-
-Shaoxu Li, **Ye Pan**
-
-- We present a novel approach for generating animatable 3D-aware art avatars from a single image, with controllable facial expressions, head poses, and shoulder movements. Unlike previous reenactment methods, our approach utilizes a pre-trained view-conditioned 2D diffusion model to synthesize multi-view images from a single art portrait with a neutral expression. With the generated colors and normals, we synthesize a static avatar using an SDF-based neural surface. For avatar animation, we extract control points, transfer the motion with these points, and deform the implicit canonical space. Firstly, we render the front image of the avatar, extract the 2D landmarks, and project them to the 3D space using a trained SDF network. We extract 3D driving landmarks using 3DMM and transfer the motion to the avatar landmarks. We deform the SDF-based neural surface utilizing neutral and expressive 3D avatar landmarks to animate the expression. To animate the avatar pose, we manually set the body height and bound the head and torso of an avatar with two cages. The head and torso can be animated by transforming the two cages. Our approach is a one-shot pipeline that can be applied to various styles. Experiments demonstrate that our method can generate high-quality 3D art avatars with desired control over different motions.
-</div>
-</div>
-
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='images/Sport_From_zero-shot_prompts_to_real-time_motion_generation.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
