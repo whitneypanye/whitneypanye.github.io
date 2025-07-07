@@ -24,6 +24,16 @@ My research interests include AR/VR, avatars/characters, 3D animations, HCI, and
 I am looking for self-motivated PhD, master and undergraduate students to join my research group. My E-mail address is **whitneypanye@sjtu.edu.cn**. Please contact me if you are interested.
 
 
+# 📖 Educations
+- *2011.09 - 2015.02*, [University College London](https://www.ucl.ac.uk/), PhD.
+- *2010.09 - 2011.09*, [University College London](https://www.ucl.ac.uk/), Master. 
+- *2006.09 - 2010.07*, [University of Electronic Science and technology](https://www.uestc.edu.cn/), Bachelor. 
+
+# 💻 Work Experience
+- *2019.11 - Present*, [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), Associate Professor.
+- *2017.09 - 2019.10*, [University College London](https://www.ucl.ac.uk/), Associate Research Scientist.
+- *2015.02 - 2017.09*, [University College London](https://www.ucl.ac.uk/), Postdoc.
+
 # 🔥 News
 - *2025.07*: &nbsp;🎉🎉 2 papers accepted to ACMMM 2025
 
@@ -689,13 +699,3 @@ Weinan Zhang, **Ye Pan**, Tianxiong Zhou, Jun Wang
 </div>
 </div>
 
-
-# 📖 Educations
-- *2011.09 - 2015.02*, [University College London](https://www.ucl.ac.uk/), PhD.
-- *2010.09 - 2011.09*, [University College London](https://www.ucl.ac.uk/), Master. 
-- *2006.09 - 2010.07*, [University of Electronic Science and technology](https://www.uestc.edu.cn/), Bachelor. 
-
-# 💻 Work Experience
-- *2019.11 - Present*, [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), Associate Professor.
-- *2017.09 - 2019.10*, [University College London](https://www.ucl.ac.uk/), Associate Research Scientist.
-- *2015.02 - 2017.09*, [University College London](https://www.ucl.ac.uk/), Postdoc.
