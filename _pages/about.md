@@ -400,7 +400,7 @@ Bin Ji, Chen Yang, Yao Shunyu, **Ye Pan**
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">US Patent 2021</div><img src='images/Gaze_based_rendering_for_audience_engagement.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">US Patent 2021</div><img src='images/Gaze_based_rendering_for_audience_engagement.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Gaze based rendering for audience engagement](https://patents.google.com/patent/US11189047B2/en)
