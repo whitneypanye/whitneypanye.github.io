@@ -30,8 +30,8 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 - *2006.09 - 2010.07*, [University of Electronic Science and technology](https://www.uestc.edu.cn/), Bachelor. 
 
 # 💻 Work Experience
-- *2019.11 - Present*, [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), Associate Professor.
-- *2017.09 - 2019.10*, [Disney Research Los Angeles](https://la.disneyresearch.com/), Associate Research Scientist.
+- *2020.11 - Present*, [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), Associate Professor.
+- *2017.09 - 2020.10*, [Disney Research Los Angeles](https://la.disneyresearch.com/), Associate Research Scientist.
 - *2015.02 - 2017.09*, [University College London](https://www.ucl.ac.uk/), Postdoc.
 
 # 🔥 News
