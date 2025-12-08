@@ -40,6 +40,42 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 # 📝 Publications 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2025</div><img src='images/GOES_3D_Gaussian-based_One-shot_Head_Animation_with_Any_Emotion_and_Any_Styleg.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[GOES: 3D Gaussian-based One-shot Head Animation with Any Emotion and Any Style](https://dl.acm.org/doi/abs/10.1145/3746027.3755001)
+
+**Chuhang Ma**, Shuai Tan, Junjie Wei, Ye Pan
+
+- Recent advancements in one-shot head avatar generation and animation have garnered significant attention. However, previous works primarily focus on maintaining consistency in expression and pose between the output and driving images, with limited exploration of two crucial factors: emotion and style. In this paper, we introduce GOES, an 3D Gaussian based One-shot head animation framework for any Emotion and any Style. To achieve low rendering consumption and high reenactment speeds, we incorporate 3D Gaussian techniques into our method. Compared to controlling facial emotions with a single label, using an image as the emotion source enables more precise and fine-grained emotional expression modeling. To accurately extract emotion features from any given image, we design an efficient emotion encoder. Based on this module, we employ a deformation predictor to achieve the emotion-driven deformation of facial 3D points. Regarding stylization, directly using style features to control the deformation of 3D Gaussian parameters results in global color changes. However, facial stylization requires region-specific color transformations. To address this, we propose a Global-to-Point mapping network, which maps the global style feature to each 3D Gaussian points. This module enables precise local style adaptation across different regions of the head avatar. Experimental results demonstrate that our approach outperforms existing methods in terms of facial reconstruction quality and expression accuracy, while also supporting customization of arbitrary emotions and styles.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2025</div><img src='images/MEDTalk_Multimodal_Controlled_3D_Facial_Animation_with_Dynamic_Emotions_by_Disentangled_Embedding.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Medtalk: Multimodal controlled 3d facial animation with dynamic emotions by disentangled embedding](https://dl.acm.org/doi/abs/10.1145/3746027.3754933)
+
+Chang Liu, **Ye Pan**, Chenyang Ding, Susanto Rahardja, Xiaokang Yang
+
+- Audio-driven emotional 3D facial animation aims to generate synchronized lip movements and vivid facial expressions. However, most existing approaches focus on static and predefined emotion labels, limiting their diversity and naturalness. To address these challenges, we propose MEDTalk, a novel framework for fine-grained and dynamic emotional talking head generation. Our approach first disentangles content and emotion embedding spaces from motion sequences using a carefully designed cross-reconstruction process, enabling independent control over lip movements and facial expressions. Beyond conventional audio-driven lip synchronization, we integrate audio and speech text, predicting frame-wise intensity variations and dynamically adjusting static emotion features to generate realistic emotional expressions. Furthermore, to enhance control and personalization, we incorporate multimodal inputs-including text descriptions and reference expression images-to guide the generation of user-specified facial expressions. With MetaHuman as the priority, our generated results can be conveniently integrated into the industrial production pipeline. The code is available at: https://github.com/SJTU-Lucy/MEDTalk.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images/FixTalk_Taming_Identity_Leakage_for_High-Quality_Talking_Head_Generation_in_Extreme_Cases.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[FixTalk: Taming Identity Leakage for High-Quality Talking Head Generation in Extreme Cases](https://arxiv.org/abs/2507.01390)
+
+Shuai Tan, Bill Gong, Bin Ji, **Ye Pan**
+
+- Talking head generation is gaining significant importance across various domains, with a growing demand for high-quality rendering. However, existing methods often suffer from identity leakage (IL) and rendering artifacts (RA), particularly in extreme cases. Through an in-depth analysis of previous approaches, we identify two key insights: (1) IL arises from identity information embedded within motion features, and (2) this identity information can be leveraged to address RA. Building on these findings, this paper introduces FixTalk, a novel framework designed to simultaneously resolve both issues for high-quality talking head generation. Firstly, we propose an Enhanced Motion Indicator (EMI) to effectively decouple identity information from motion features, mitigating the impact of IL on generated talking heads. To address RA, we introduce an Enhanced Detail Indicator (EDI), which utilizes the leaked identity information to supplement missing details, thus fixing the artifacts. Extensive experiments demonstrate that FixTalk effectively mitigates IL and RA, achieving superior performance compared to state-of-the-art methods.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2025</div><img src='images/Sport_From_zero-shot_prompts_to_real-time_motion_generation.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
