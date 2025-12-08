@@ -35,8 +35,9 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 - *2015.02 - 2017.09*, [University College London](https://www.ucl.ac.uk/), Postdoc.
 
 # 🔥 News
+- *2025.11*: &nbsp;🎉🎉 1 paper accepted to TVCG 2026
 - *2025.11*: &nbsp;🎉🎉 1 paper accepted to AAAI 2026
-- *2025.09*: &nbsp;🎉🎉 1 paper accepted to ICCV 2025 (Best Paper)
+- *2025.09*: &nbsp;🎉🎉 1 paper accepted to ICCV 2025 (Best Paper Candidate)
 - *2025.07*: &nbsp;🎉🎉 2 paper accepted to ACMMM 2025
 
 # 📝 Publications 
