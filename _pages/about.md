@@ -35,12 +35,14 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 - *2015.02 - 2017.09*, [University College London](https://www.ucl.ac.uk/), Postdoc.
 
 # 🔥 News
-- *2025.07*: &nbsp;🎉🎉 2 papers accepted to ACMMM 2025
+- *2025.11*: &nbsp;🎉🎉 1 paper accepted to AAAI 2026
+- *2025.09*: &nbsp;🎉🎉 1 paper accepted to ICCV 2025 (Best Paper)
+- *2025.07*: &nbsp;🎉🎉 2 paper accepted to ACMMM 2025
 
 # 📝 Publications 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2025</div><img src='images/GOES_3D_Gaussian-based_One-shot_Head_Animation_with_Any_Emotion_and_Any_Styleg.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2025</div><img src='images/GOES_3D_Gaussian-based_One-shot_Head_Animation_with_Any_Emotion_and_Any_Style.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [GOES: 3D Gaussian-based One-shot Head Animation with Any Emotion and Any Style](https://dl.acm.org/doi/abs/10.1145/3746027.3755001)
