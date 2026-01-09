@@ -35,7 +35,7 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 - *2015.02 - 2017.09*, [University College London](https://www.ucl.ac.uk/), Postdoc.
 
 # 🔥 News
-- *2025.11*: &nbsp;🎉🎉 1 paper accepted to TVCG 2026
+- *2025.12*: &nbsp;🎉🎉 2 papers accepted to TVCG 2026
 - *2025.11*: &nbsp;🎉🎉 1 paper accepted to AAAI 2026
 - *2025.09*: &nbsp;🎉🎉 1 paper accepted to ICCV 2025 (Best Paper Candidate)
 - *2025.07*: &nbsp;🎉🎉 2 paper accepted to ACMMM 2025
@@ -43,12 +43,35 @@ I am looking for self-motivated PhD, master and undergraduate students to join m
 # 📝 Publications 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2026</div><img src='images/ESGaussianFace_Emotional_and_Stylized_Audio_Driven_Facial_Animation_via_3D_Gaussian_Splatting.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[ESGaussianFace: Emotional and Stylized Audio-Driven Facial Animation via 3D Gaussian Splatting](https://arxiv.org/abs/2601.01847)
+Chuhang Ma, Shuai Tan, **Ye Pan**, Jiaolong Yang, Xin Tong
+
+- Most current audio-driven facial animation research primarily focuses on generating videos with neutral emotions. While some studies have addressed the generation of facial videos driven by emotional audio, efficiently generating high-quality talking head videos that integrate both emotional expressions and style features remains a significant challenge. In this paper, we propose ESGaussianFace, an innovative framework for emotional and stylized audio-driven facial animation. Our approach leverages 3D Gaussian Splatting to reconstruct 3D scenes and render videos, ensuring efficient generation of 3D consistent results. We propose an emotion-audio-guided spatial attention method that effectively integrates emotion features with audio content features. Through emotion-guided attention, the model is able to reconstruct facial details across different emotional states more accurately. To achieve emotional and stylized deformations of the 3D Gaussian points through emotion and style features, we introduce two 3D Gaussian deformation predictors. Futhermore, we propose a multi-stage training strategy, enabling the step-by-step learning of the character's lip movements, emotional variations, and style features. Our generated results exhibit high efficiency, high quality, and 3D consistency. Extensive experimental results demonstrate that our method outperforms existing state-of-the-art techniques in terms of lip movement accuracy, expression variation, and style feature expressiveness.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TVCG 2026</div><img src='images/DiffPortraitVideo_Diffusion_based_Expression_Consistent_Zero_Shot_Portrait_Video_Translation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DiffPortraitVideo: Diffusion-based Expression-Consistent Zero-Shot Portrait Video Translation](https://pubmed.ncbi.nlm.nih.gov/41370165/)
+
+Shaoxu Li, Chuhang Ma, **Ye Pan**
+
+- Zero-shot text-to-video diffusion models are crafted to expand pre-trained image diffusion models to the video domain without additional training. In recent times, prevailing techniques commonly rely on existing shapes as constraints and introduce inter-frame attention to ensure texture consistency. However, such shape constraints tend to restrict the stylized geometric deformation of videos and inadvertently neglect the original texture characteristics. Furthermore, existing methods suffer from flickering and inconsistent facial expressions. In this paper, we present DiffPortraitVideo. The framework employs a diffusion model-based feature and attention injection mechanism to generate key frames, with cross-frame constraints to enforce coherence and adaptive feature fusion to ensure expression consistency. Our approach achieves high spatio-temporal and expression consistency while retaining the textual and original image properties. Extensive and comprehensive experiments are conducted to validate the efficacy of our proposed framework in generating personalized, high-quality, and coherent videos. This not only showcases the superiority of our method over existing approaches but also paves the way for further research and development in the field of text-to-video generation with enhanced personalization and quality.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACMMM 2025</div><img src='images/GOES_3D_Gaussian-based_One-shot_Head_Animation_with_Any_Emotion_and_Any_Style.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [GOES: 3D Gaussian-based One-shot Head Animation with Any Emotion and Any Style](https://dl.acm.org/doi/abs/10.1145/3746027.3755001)
 
-**Chuhang Ma**, Shuai Tan, Junjie Wei, Ye Pan
+Chuhang Ma, Shuai Tan, Junjie Wei, **Ye Pan**
 
 - Recent advancements in one-shot head avatar generation and animation have garnered significant attention. However, previous works primarily focus on maintaining consistency in expression and pose between the output and driving images, with limited exploration of two crucial factors: emotion and style. In this paper, we introduce GOES, an 3D Gaussian based One-shot head animation framework for any Emotion and any Style. To achieve low rendering consumption and high reenactment speeds, we incorporate 3D Gaussian techniques into our method. Compared to controlling facial emotions with a single label, using an image as the emotion source enables more precise and fine-grained emotional expression modeling. To accurately extract emotion features from any given image, we design an efficient emotion encoder. Based on this module, we employ a deformation predictor to achieve the emotion-driven deformation of facial 3D points. Regarding stylization, directly using style features to control the deformation of 3D Gaussian parameters results in global color changes. However, facial stylization requires region-specific color transformations. To address this, we propose a Global-to-Point mapping network, which maps the global style feature to each 3D Gaussian points. This module enables precise local style adaptation across different regions of the head avatar. Experimental results demonstrate that our approach outperforms existing methods in terms of facial reconstruction quality and expression accuracy, while also supporting customization of arbitrary emotions and styles.
 </div>
