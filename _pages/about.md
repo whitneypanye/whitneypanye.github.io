@@ -122,6 +122,8 @@ Bin Ji, **Ye Pan**, Zhimeng Liu, Shuai Tan, Xiaokang Yang
 
 **Ye Pan**, Chang Liu, Sicheng Xu, Shuai Tan, Jiaolong Yang
 
+- [Project Page](https://sjtu-lucy.github.io/vasa-rig)
+
 - Audio-driven 3D facial animation is crucial for enhancing the metaverse's realism, immersion, and interactivity. While most existing methods focus on generating highly realistic and lively 2D talking head videos by leveraging extensive 2D video datasets these approaches work in pixel space and are not easily adaptable to 3D environments. We present VASA-Rig, which has achieved a significant advancement in the realism of lip-audio synchronization, facial dynamics, and head movements. In particular, we introduce a novel rig parameter-based emotional talking face dataset and propose the Latents2Rig model, which facilitates the transformation of 2D facial animations into 3D. Unlike mesh-based models, VASA-Rig outputs rig parameters, instantiated in this paper as 174 Metahuman rig parameters, making it more suitable for integration into industry-standard pipelines. Extensive experimental results demonstrate that our approach significantly outperforms existing state-of-the-art methods in terms of both realism and accuracy.
 </div>
 </div>
